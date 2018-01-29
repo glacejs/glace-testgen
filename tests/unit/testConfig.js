@@ -1,12 +1,11 @@
 "use strict";
 
 var confPath = "../../lib/config";
-var CONF = require(confPath);
+var CONF = rewire(confPath);
 
 var reloadConfig = () => {
     delete CONF.gen;
-    delete require.cache[require.resolve(confPath)];
-    CONF = require(confPath);
+    CONF = rewire(confPath);
 };
 
 scope("test gen config", () => {
@@ -32,6 +31,22 @@ scope("test gen config", () => {
         chunk("doesn't have stepsUsage", () => {
             expect(CONF.gen.stepsUsage).to.not.exist;
         });
+
+        chunk("doesn't have filter", () => {
+            expect(CONF.gen.filter).to.not.exist;
+        });
+
+        chunk("doesn't have namesOnly", () => {
+            expect(CONF.gen.namesOnly).to.be.false;
+        });
+
+        chunk("doesn't have stepsUniq", () => {
+            expect(CONF.gen.stepsUniq).to.be.equal(0);
+        });
+
+        chunk("has default testsLimit", () => {
+            expect(CONF.gen.testsLimit).to.be.equal(1000000);
+        });
     });
 
     test("with option values", () => {
@@ -52,6 +67,30 @@ scope("test gen config", () => {
             CONF.args.usage = 1;
             reloadConfig();
             expect(CONF.gen.stepsUsage).to.be.equal(1);
+        });
+
+        chunk("has filter", () => {
+            CONF.args.filter = "filter";
+            reloadConfig();
+            expect(CONF.gen.filter).to.be.equal("filter");
+        });
+
+        chunk("has namesOnly", () => {
+            CONF.args.names = true;
+            reloadConfig();
+            expect(CONF.gen.namesOnly).to.be.true;
+        });
+
+        chunk("has stepsUniq", () => {
+            CONF.args.uniq = 1;
+            reloadConfig();
+            expect(CONF.gen.stepsUniq).to.be.equal(1);
+        });
+
+        chunk("has custom testsLimit", () => {
+            CONF.args.limit = 1;
+            reloadConfig();
+            expect(CONF.gen.testsLimit).to.be.equal(1);
         });
     });
 });
