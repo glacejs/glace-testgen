@@ -13,7 +13,7 @@ scope("test", () => {
 
         chunk("created", () => {
             expect(t.isChanged).to.be.false;
-            expect(t.state).to.be.null;
+            expect(t.state).to.be.empty;
             expect(t.steps).to.be.empty;
         });
 

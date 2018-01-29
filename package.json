@@ -20,14 +20,15 @@
   },
   "homepage": "https://glacejs.github.io/glace-testgen",
   "dependencies": {
+    "caller-path": "^2.0.0",
     "colors": "^1.1.2",
     "glace-utils": "^1.0.7",
     "js-yaml": "^3.10.0",
     "lodash": "^4.17.4"
   },
   "devDependencies": {
-    "cross-spawn": "^6.0.3",
-    "glace-core": "^1.1.5",
+    "cross-spawn": "^6.0.4",
+    "glace-core": "^1.1.7",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
     "ink-docstrap": "^1.3.0",
