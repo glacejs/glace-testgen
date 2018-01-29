@@ -1,3 +1,7 @@
+### 0.0.3
+
+- Fix bug that console utility `test-gen` wasn't defined.
+
 ### 0.0.2
 
 - Added feature to support step actions and expectations in generator

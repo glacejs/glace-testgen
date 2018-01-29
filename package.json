@@ -1,6 +1,6 @@
 {
   "name": "glace-testgen",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "GlaceJS tests generator",
   "main": "lib/index.js",
   "scripts": {
@@ -12,10 +12,13 @@
   },
   "author": "Sergei Chipiga <chipiga86@gmail.com>",
   "license": "MIT",
+  "bin": {
+    "test-gen": "./bin/test-gen"
+  },
   "bugs": {
     "url": "https://github.com/glacejs/glace-testgen/issues"
   },
-  "homepage": "https://github.com/glacejs/glace-testgen#readme",
+  "homepage": "https://glacejs.github.io/glace-testgen",
   "dependencies": {
     "colors": "^1.1.2",
     "glace-utils": "^1.0.7",
