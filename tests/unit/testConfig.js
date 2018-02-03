@@ -88,7 +88,7 @@ scope("test gen config", () => {
         });
 
         chunk("has custom testsLimit", () => {
-            CONF.args.limit = 1;
+            CONF.args.limitTests = 1;
             reloadConfig();
             expect(CONF.gen.testsLimit).to.be.equal(1);
         });
