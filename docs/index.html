@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>GlaseJS Index</title>
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link type="text/css" rel="stylesheet" href="styles/sunlight.default.css">
+
+	<link type="text/css" rel="stylesheet" href="styles/site.cosmo.css">
+
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top ">
+<div class="container">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="index.html">GlaseJS</a>
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#topNavigation">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+        </button>
+	</div>
+	<div class="navbar-collapse collapse" id="topNavigation">
+		<ul class="nav navbar-nav">
+			
+			<li class="dropdown">
+				<a href="namespaces.list.html" class="dropdown-toggle" data-toggle="dropdown">Namespaces<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="GlaceConfig.html">GlaceConfig</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="modules.list.html" class="dropdown-toggle" data-toggle="dropdown">Modules<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="module-cli.html">cli</a></li><li><a href="module-generator.html">generator</a></li><li><a href="module-help.html">help</a></li><li><a href="module-index.html">index</a></li><li><a href="module-loader.html">loader</a></li><li><a href="module-utils.html">utils</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="classes.list.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="Step.html">Step</a></li><li><a href="Test.html">Test</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="tutorials.list.html" class="dropdown-toggle" data-toggle="dropdown">Tutorials<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="tutorial-release-notes.html">Release Notes</a></li><li><a href="tutorial-steps-description.html">Steps Description</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+        
+            <div class="col-sm-3 col-md-3">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="q" id="search-input">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" id="search-submit"><i class="glyphicon glyphicon-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        
+	</div>
+
+</div>
+</div>
+
+
+<div class="container" id="toc-content">
+<div class="row">
+
+	
+	<div class="col-md-8">
+	
+		<div id="main">
+			
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+    <section class="readme-section">
+        <article><p><a href="https://travis-ci.org/glacejs/glace-testgen"><img src="https://travis-ci.org/glacejs/glace-testgen.svg?branch=master" alt="Build Status"></a>
+ | <a href="https://github.com/glacejs/glace-testgen">Source Code</a>
+ | <a href="tutorial-release-notes.html">Release Notes</a></p>
+<h1>GlaceJS Tests Generator</h1><h2>Annotation</h2><p>Tests Generator needs to generate test scenarios from steps library.
+It receives <code>json</code> or <code>yaml</code> file with steps description and returns a list composed test cases.
+Tests Generator may be used for manual and autotests generation.</p>
+<p><strong>Note!</strong> Currently it may generate only positive test cases.</p>
+<h2>Installation</h2><pre class="prettyprint source"><code>npm i glace-testgen</code></pre><p>Then utility <code>test-gen</code> will be available in console.</p>
+<h2>Quick Start</h2><ol>
+<li><p>Be sure that you have installed <code>glace-testgen</code>.</p>
+</li>
+<li><p>Create file <code>steps.yml</code> and fill with content:</p>
+<pre class="prettyprint source"><code> -
+   name: &quot;open app&quot;
+   income: null
+   outcome:
+     app: true
+ -
+   name: &quot;authenticate&quot;
+   income:
+     app: true
+   outcome:
+     app:
+       auth: true
+ -
+   name: &quot;close app&quot;
+   income: 
+     app: true
+   outcome: null</code></pre></li>
+<li><p>Launch console and execute command:</p>
+<pre class="prettyprint source"><code> test-gen /path/to/steps.yml</code></pre></li>
+<li><p>It will generate next scenarios:</p>
+<pre class="prettyprint source"><code> Test case 1:
+   - open app
+   - authenticate
+   - close app
+
+ Test case 2:
+   - open app
+   - close app</code></pre></li>
+</ol>
+<p>More details about steps description you may find <a href="tutorial-steps-description.html">here</a>.</p>
+<h2>Console Options</h2><p>Utility usage:</p>
+<pre class="prettyprint source"><code>test-gen path/to/steps/file [options]</code></pre><p>Steps file may be <code>.json</code> or <code>.yaml</code> (<code>.yml</code>).</p>
+<p><code>Arguments:</code></p>
+<ul>
+<li><code>--config [path], -c</code> - Path to JSON file with CLI arguments. Default is <code>cwd/config.json</code> (if it exists).</li>
+</ul>
+<p><code>Log:</code></p>
+<ul>
+<li><code>--stdout-log</code> - Print log messages to stdout.</li>
+<li><code>--log [path]</code> - Path to log file. Default is <code>cwd/glace.log</code>.</li>
+<li><code>--log-level [level]</code> - Log level. Default is <code>debug</code>.</li>
+</ul>
+<p><code>Test-gen:</code></p>
+<ul>
+<li><code>--file &lt;output&gt;, -f</code> - Path to output file (<code>yaml</code> format).</li>
+<li><code>--usage &lt;number&gt;</code> - Number of steps usage in test case. Overrides each step usage value which may be specified in config.</li>
+<li><code>--filter &lt;chunk&gt;</code> - Chunk of step name to filter tests.</li>
+</ul>
+<p><code>Common:</code></p>
+<ul>
+<li><code>--version</code> - Show version number.</li>
+<li><code>-h, --help</code> - Show help.</li>
+</ul>
+<h2>State Descriptor</h2><p>The quality and correctness of composed tests deeply depends on steps <code>income</code> and <code>outcome</code> description. There are some <a href="tutorial-steps-description.html">rules</a> which will help you to avoid unexpected scenarios.</p>
+<h2>Howto</h2></article>
+    </section>
+
+
+
+
+
+
+
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+	
+		<div class="col-md-3">
+			<div id="toc" class="col-md-3 hidden-xs hidden-sm hidden-md"></div>
+		</div>
+	
+
+</div>
+</div>
+
+
+    <div class="modal fade" id="searchResults">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Search results</h4>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+
+
+<footer>
+
+
+	<span class="copyright">
+	Copyright 2017
+	</span>
+
+<span class="jsdoc-message">
+	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
+	
+		on 2018-02-03T23:18:44+02:00
+	
+	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
+</span>
+</footer>
+
+<script src="scripts/docstrap.lib.js"></script>
+<script src="scripts/toc.js"></script>
+
+    <script type="text/javascript" src="scripts/fulltext-search-ui.js"></script>
+
+
+<script>
+$( function () {
+	$( "[id*='$']" ).each( function () {
+		var $this = $( this );
+
+		$this.attr( "id", $this.attr( "id" ).replace( "$", "__" ) );
+	} );
+
+	$( ".tutorial-section pre, .readme-section pre, pre.prettyprint.source" ).each( function () {
+		var $this = $( this );
+
+		var example = $this.find( "code" );
+		exampleText = example.html();
+		var lang = /{@lang (.*?)}/.exec( exampleText );
+		if ( lang && lang[1] ) {
+			exampleText = exampleText.replace( lang[0], "" );
+			example.html( exampleText );
+			lang = lang[1];
+		} else {
+			var langClassMatch = example.parent()[0].className.match(/lang\-(\S+)/);
+			lang = langClassMatch ? langClassMatch[1] : "javascript";
+		}
+
+		if ( lang ) {
+
+			$this
+			.addClass( "sunlight-highlight-" + lang )
+			.addClass( "linenums" )
+			.html( example.html() );
+
+		}
+	} );
+
+	Sunlight.highlightAll( {
+		lineNumbers : true,
+		showMenu : true,
+		enableDoclinks : true
+	} );
+
+	$.catchAnchorLinks( {
+        navbarOffset: 10
+	} );
+	$( "#toc" ).toc( {
+		anchorName  : function ( i, heading, prefix ) {
+			return $( heading ).attr( "id" ) || ( prefix + i );
+		},
+		selectors   : "#toc-content h1,#toc-content h2,#toc-content h3,#toc-content h4",
+		showAndHide : false,
+		smoothScrolling: true
+	} );
+
+	$( "#main span[id^='toc']" ).addClass( "toc-shim" );
+	$( '.dropdown-toggle' ).dropdown();
+
+    $( "table" ).each( function () {
+      var $this = $( this );
+      $this.addClass('table');
+    } );
+
+} );
+</script>
+
+
+
+<!--Navigation and Symbol Display-->
+
+
+<!--Google Analytics-->
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            SearcherDisplay.init();
+        });
+    </script>
+
+
+</body>
+</html>
