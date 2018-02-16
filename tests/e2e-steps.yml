@@ -1,0 +1,17 @@
+-
+  name: openApp
+  income: null
+  outcome:
+    app: true
+-
+  name: auth
+  income:
+    app: true
+  outcome:
+    app:
+      auth: true
+-
+  name: closeApp
+  income: 
+    app: true
+  outcome: null

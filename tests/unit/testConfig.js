@@ -52,7 +52,7 @@ scope("test gen config", () => {
     test("with option values", () => {
 
         chunk("has outFile", () => {
-            CONF.args.file = "/path/to/out/file";
+            CONF.args.genOutputFile = "/path/to/out/file";
             reloadConfig();
             expect(CONF.gen.outFile).to.be.equal("/path/to/out/file.yml");
         });
@@ -64,31 +64,31 @@ scope("test gen config", () => {
         });
 
         chunk("has stepsUsage", () => {
-            CONF.args.usage = 1;
+            CONF.args.genStepsUsage = 1;
             reloadConfig();
             expect(CONF.gen.stepsUsage).to.be.equal(1);
         });
 
         chunk("has filter", () => {
-            CONF.args.filter = "filter";
+            CONF.args.genFilter = "filter";
             reloadConfig();
             expect(CONF.gen.filter).to.be.equal("filter");
         });
 
         chunk("has namesOnly", () => {
-            CONF.args.names = true;
+            CONF.args.genNamesOnly = true;
             reloadConfig();
             expect(CONF.gen.namesOnly).to.be.true;
         });
 
         chunk("has stepsUniq", () => {
-            CONF.args.uniq = 1;
+            CONF.args.genStepsUniq = 1;
             reloadConfig();
             expect(CONF.gen.stepsUniq).to.be.equal(1);
         });
 
         chunk("has custom testsLimit", () => {
-            CONF.args.limitTests = 1;
+            CONF.args.genLimitTests = 1;
             reloadConfig();
             expect(CONF.gen.testsLimit).to.be.equal(1);
         });
