@@ -1,3 +1,7 @@
+### 0.0.5
+
+- [Fixed](https://github.com/glacejs/glace-testgen/commit/5659d81a942ec2d165cece9e31aceeb1f39891ac) bug that `testgen` was activated always as `glace` plugin.
+
 ### 0.0.4
 
 - [Use](https://github.com/glacejs/glace-testgen/commit/d97310351d2700364d4da5850a0e9e2ea8b0935d) tests generator as [glace](https://glacejs.github.io/glace-core/index.html) plugin.
