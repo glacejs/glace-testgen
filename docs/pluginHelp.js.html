@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>GlaseJS Classes</title>
+	<title>GlaseJS Source: pluginHelp.js</title>
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -81,110 +81,83 @@
 <div class="row">
 
 	
-	<div class="col-md-8">
+	<div class="col-md-12">
 	
 		<div id="main">
 			
 
-	<h1 class="page-title">Classes</h1>
+		<h1 class="page-title">Source: pluginHelp.js</h1>
+    
 <section>
+    <article>
+        <pre
+            class="sunlight-highlight-javascript linenums">"use strict";
 
-<header>
-    
-        <h2>
-        
-        </h2>
-        
-    
-</header>
+/**
+ * `Glace testgen` plugin help.
+ * 
+ * @function
+ */
 
-
-<article>
-    <div class="container-overview">
-    
-        
-
-        
-<dl class="details">
-    
-
-	
-
-	
-
-	
-
-    
-
-    
-
-    
-
-    
-
-	
-
-	
-
-	
-
-	
-
-	
-
-
-
-	
-
-	
-
-	
-
-	
-</dl>
-
-
-        
-    
-    </div>
-
-    
-
-    
-
-    
-        <h3 class="subsection-title">Classes</h3>
-
-        <dl>
-            <dt><a href="Step.html">Step</a></dt>
-            <dd></dd>
-        
-            <dt><a href="Test.html">Test</a></dt>
-            <dd></dd>
-        </dl>
-    
-
-    
-
-    
-        <h3 class="subsection-title">Namespaces</h3>
-
-        <dl>
-            <dt><a href="namespaces.html#GlaceConfig"><a href="GlaceConfig.html">GlaceConfig</a></a></dt>
-            <dd></dd>
-        </dl>
-    
-
-    
-
-    
-
-    
-
-    
-</article>
-
+module.exports = (args, d) => {
+    return args
+        .options({
+            "gen-output-file &lt;path>": {
+                describe: d("Path to output file with generated tests (yaml format)."),
+                type: "string",
+                group: "Test-gen:",
+            },
+            "gen-filter &lt;chunk>": {
+                describe: d("Chunk of step name to filter tests."),
+                type: "string",
+                group: "Test-gen:",
+            },
+            "gen-steps-uniq [number]": {
+                describe: d("Number of steps in unique sequence to filter tests.",
+                            "Default is unlimited."),
+                type: "number",
+                group: "Test-gen:",
+            },
+            "gen-limit-tests [number]": {
+                describe: d("Maximum amount of generated tests.",
+                            "Default is 1000000."),
+                type: "number",
+                group: "Test-gen:",
+            },
+            "gen-limit-steps [number]": {
+                describe: d("Maximum amount of steps per test.",
+                            "Default is unlimited."),
+                type: "number",
+                group: "Test-gen:",
+            },
+            "gen-names-only": {
+                describe: d("Flag to print only step names."),
+                type: "boolean",
+                group: "Test-gen:",
+            },
+            "gen-steps-usage &lt;number>": {
+                describe: d("Number of steps usage in test case."),
+                type: "number",
+                group: "Test-gen:",
+            },
+            "gen-steps-file &lt;path>": {
+                describe: d("Path to steps file (yaml or json format).",
+                            "As alternate to specify path to steps file in plugin mode."),
+                type: "string",
+                group: "Test-gen:",
+            },
+            "gen-tests-only": {
+                describe: d("Flag to exclude other found tests and launch",
+                            "only generated tests in plugin mode."),
+                type: "boolean",
+                group: "Test-gen:",
+            },
+        });
+};
+</pre>
+    </article>
 </section>
+
 
 
 
@@ -194,10 +167,6 @@
 
 	<div class="clearfix"></div>
 
-	
-		<div class="col-md-3">
-			<div id="toc" class="col-md-3 hidden-xs hidden-sm hidden-md"></div>
-		</div>
 	
 
 </div>
