@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+var path = require("path");
+var glace = require("glace-core");
+var LOG = require("glace-utils").logger;
+glace.plugins.register(path.resolve(__dirname, "..", "lib"));
+glace.run(process.exit);
+
+glace.Steps.register({
+    openApp: function () {
+        LOG.info("open :)");
+    },
+    auth: function () {
+        LOG.info("auth :)");
+    },
+    closeApp: function () {
+        LOG.info("bye-bye ;)");
+    },
+});
