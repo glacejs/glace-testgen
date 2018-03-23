@@ -17,7 +17,7 @@ scope("cli", () => {
         beforeChunk(() => {
             generate = sandbox.stub().returns([1, 2]);
             cli.__set__("generate", generate);
-            printTests = sandbox.spy()
+            printTests = sandbox.spy();
             cli.__set__("printTests", printTests);
             printUnusedSteps = sandbox.spy();
             cli.__set__("printUnusedSteps", printUnusedSteps);

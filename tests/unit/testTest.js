@@ -64,7 +64,7 @@ scope("test", () => {
         });
 
         chunk("._amount()", () => {
-            var step = { name: "hello" }
+            var step = { name: "hello" };
             t.steps.push(step);
             expect(t._amount(step)).to.be.equal(1);
         });

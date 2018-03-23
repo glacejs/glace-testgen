@@ -16,7 +16,7 @@ scope("utils", () => {
             [{ app: true }, { app: { loaded: true }}, false],
             [{ app: { scene: { loaded: true }}}, { app: { scene: true }}, true],
         ].forEach(([dict, sub, res]) => {
-            chunk(format(`returns ${res} for`, dict, '&', sub), () => {
+            chunk(format(`returns ${res} for`, dict, "&", sub), () => {
                 expect(utils.isSub(dict, sub)).to.be.equal(res);
             });
         });
