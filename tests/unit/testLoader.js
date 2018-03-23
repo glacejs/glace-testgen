@@ -63,9 +63,9 @@ scope("loader", () => {
     test(".__getSteps()", () => {
         chunk(() => {
             var res = loader.__get__("getSteps")([{ name: "step",
-                                                    income: "income",
-                                                    outcome: "outcome",
-                                                    usage: 2 }]);
+                income: "income",
+                outcome: "outcome",
+                usage: 2 }]);
             expect(res).has.length(1);
             expect(res[0] instanceof Step).to.be.true;
             expect(res[0].name).to.be.equal("step");
