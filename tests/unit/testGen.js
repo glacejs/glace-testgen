@@ -32,7 +32,6 @@ scope("generator", () => {
             expect(generateTests).to.be.calledOnce;
             expect(getUnusedSteps).to.be.calledOnce;
             expect(filterTests).to.be.calledOnce;
-            expect(filterByUniqSteps).to.be.calledOnce;
         });
     });
 });
