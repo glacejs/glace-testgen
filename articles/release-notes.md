@@ -1,3 +1,7 @@
+### v0.0.7
+
+- [Added](https://github.com/glacejs/glace-testgen/commit/3492d7b3eb8fd568e0251d850d6d9ac29ffc647b) proactive filtering for unique steps.
+
 ### v0.0.6
 
 - [Added](https://github.com/glacejs/glace-testgen/commit/49b0f1ffbfdd414806ff70b4b553ee490d10ddc4) project workflow commands.
