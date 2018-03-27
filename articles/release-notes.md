@@ -1,3 +1,7 @@
+### v0.0.8
+
+- Fixed bug with steps file cli option order.
+
 ### v0.0.7
 
 - [Added](https://github.com/glacejs/glace-testgen/commit/3492d7b3eb8fd568e0251d850d6d9ac29ffc647b) proactive filtering for unique steps.
