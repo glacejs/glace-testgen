@@ -22,12 +22,6 @@ scope("test gen config", () => {
             expect(CONF.gen.outFile).to.not.exist;
         });
 
-        chunk("doesn't have stepsFile", () => {
-            delete CONF.args._;
-            reloadConfig();
-            expect(CONF.gen.stepsFile).to.not.exist;
-        });
-
         chunk("doesn't have stepsUsage", () => {
             expect(CONF.gen.stepsUsage).to.not.exist;
         });
@@ -55,12 +49,6 @@ scope("test gen config", () => {
             CONF.args.genOutputFile = "/path/to/out/file";
             reloadConfig();
             expect(CONF.gen.outFile).to.be.equal("/path/to/out/file.yml");
-        });
-
-        chunk("has stepsFile", () => {
-            CONF.args._ = ["/path/to/steps/file"];
-            reloadConfig();
-            expect(CONF.gen.stepsFile).to.be.equal("/path/to/steps/file");
         });
 
         chunk("has stepsUsage", () => {
