@@ -17,7 +17,7 @@ scope("generator", () => {
             loadSteps = sandbox.stub();
             generateTests = sandbox.stub();
             getUnusedSteps = sandbox.stub();
-            filterTests = sandbox.stub();
+            filterTests = sandbox.stub().returns([]);
             filterByUniqSteps = sandbox.stub();
             gen.__set__("loadSteps", loadSteps);
             gen.__set__("generateTests", generateTests);
