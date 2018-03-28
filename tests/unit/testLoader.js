@@ -11,57 +11,6 @@ scope("loader", () => {
         loader.__reset__();
     });
 
-    test(".loadSteps()", () => {
-        var loadFile, getSteps, checkData;
-
-        beforeChunk(() => {
-            loadFile = sandbox.stub();
-            loader.__set__("loadFile", loadFile);
-            getSteps = sandbox.stub();
-            loader.__set__("getSteps", getSteps);
-            checkData = sandbox.stub();
-            loader.__set__("checkData", checkData);
-        });
-
-        chunk(() => {
-            loader.loadSteps();
-            expect(loadFile).to.be.calledOnce;
-            expect(getSteps).to.be.calledOnce;
-        });
-    });
-
-    test(".loadFile()", () => {
-        var fs, yaml, U;
-
-        beforeChunk(() => {
-            fs = loader.__get__("fs");
-            sandbox.stub(fs, "readFileSync");
-            yaml = loader.__get__("yaml");
-            sandbox.stub(yaml, "safeLoad");
-            U = loader.__get__("U");
-            sandbox.stub(U, "loadJson");
-        });
-
-        [
-            "/path/to/steps.yml",
-            "/path/to/steps.yaml",
-        ].forEach(filePath => {
-            chunk(`loads yaml ${filePath}`, () => {
-                loader.__get__("loadFile")(filePath);
-                expect(fs.readFileSync.calledOnce).to.be.true;
-                expect(yaml.safeLoad.calledOnce).to.be.true;
-                expect(U.loadJson.called).to.be.false;
-            });
-        });
-
-        chunk("loads json", () => {
-            loader.__get__("loadFile")("/path/to/steps");
-            expect(fs.readFileSync.calledOnce).to.be.false;
-            expect(yaml.safeLoad.calledOnce).to.be.false;
-            expect(U.loadJson.called).to.be.true;
-        });
-    });
-
     test(".__getSteps()", () => {
         chunk(() => {
             var res = loader.__get__("getSteps")([{ name: "step",
