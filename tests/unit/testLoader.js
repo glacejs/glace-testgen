@@ -12,13 +12,15 @@ scope("loader", () => {
     });
 
     test(".loadSteps()", () => {
-        var loadFile, getSteps;
+        var loadFile, getSteps, checkData;
 
         beforeChunk(() => {
             loadFile = sandbox.stub();
             loader.__set__("loadFile", loadFile);
             getSteps = sandbox.stub();
             loader.__set__("getSteps", getSteps);
+            checkData = sandbox.stub();
+            loader.__set__("checkData", checkData);
         });
 
         chunk(() => {
