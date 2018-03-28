@@ -1,3 +1,7 @@
+### v0.1.0
+
+- Fixed logic typo in generator.
+
 ### v0.0.9
 
 - Some fixes and checks in steps files.
