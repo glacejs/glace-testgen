@@ -1,3 +1,7 @@
+### v0.0.9
+
+- Some fixes and checks in steps files.
+
 ### v0.0.8
 
 - Fixed bug with steps file cli option order.
