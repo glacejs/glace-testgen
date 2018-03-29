@@ -1,6 +1,6 @@
 {
   "name": "glace-testgen",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "GlaceJS tests generator",
   "main": "lib/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "test:unit": "nyc ./tests/run tests/unit",
     "test:cover": "nyc --reporter=lcov ./tests/run tests/unit",
     "test:commit": "./tests/run tests/unit",
-    "test:e2e": "./tests/run --gen-steps-file ./tests/e2e-steps.yml --gen-tests-only"
+    "test:e2e": "./tests/run --gen-steps-files ./tests/e2e-steps.yml --gen-tests-only"
   },
   "pre-commit": [
     "lint",

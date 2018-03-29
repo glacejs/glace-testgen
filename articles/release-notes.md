@@ -1,3 +1,8 @@
+### v1.0.0
+
+- [Limit](https://github.com/glacejs/glace-testgen/commit/211e06f7da8480e973d0a5d73014554f938f34df) generated tests.
+- [Support](https://github.com/glacejs/glace-testgen/commit/337437cc461b8d83b10d7e0530e009e70e4b7210) pregenerated tests loading.
+
 ### v0.1.0
 
 - Fixed logic typo in generator.
