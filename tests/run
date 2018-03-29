@@ -8,6 +8,7 @@ glace.run(process.exit);
 
 glace.Steps.register({
     openApp: function () {
+        throw new Error("BOOM");
         LOG.info("open :)");
     },
     auth: function () {
