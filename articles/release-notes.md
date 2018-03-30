@@ -1,3 +1,7 @@
+### v1.0.4
+
+- [Fixed](https://github.com/glacejs/glace-testgen/commit/1a3b9dcad8b6202af9bebdf21b330cf60811fcb8) error to load pregenerated tests.
+
 ### v1.0.3
 
 - [Shuffle](https://github.com/glacejs/glace-testgen/commit/f327d5fa4c934367d104aded994b507b2d521fbf) tests in generating optionally.
