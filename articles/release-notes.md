@@ -1,3 +1,7 @@
+### v1.0.5
+
+- Print info about pregenerated tests loading.
+
 ### v1.0.4
 
 - [Fixed](https://github.com/glacejs/glace-testgen/commit/1a3b9dcad8b6202af9bebdf21b330cf60811fcb8) error to load pregenerated tests.
