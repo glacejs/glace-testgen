@@ -1,3 +1,7 @@
+### v1.0.1
+
+- [Fixed](https://github.com/glacejs/glace-testgen/commit/329f928015bc9209f4dcd0f3ed1f604dfaf83570) mislogic in steps adding.
+
 ### v1.0.0
 
 - [Limit](https://github.com/glacejs/glace-testgen/commit/211e06f7da8480e973d0a5d73014554f938f34df) generated tests.
