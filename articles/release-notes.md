@@ -1,3 +1,7 @@
+### v1.0.3
+
+- [Shuffle](https://github.com/glacejs/glace-testgen/commit/f327d5fa4c934367d104aded994b507b2d521fbf) tests in generating optionally.
+
 ### v1.0.2
 
 - [Skip](https://github.com/glacejs/glace-testgen/commit/ae0bca11d91388256a00cc1b5931adf2d1e73b92) chunk in debug mode too.
