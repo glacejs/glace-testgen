@@ -58,7 +58,7 @@ scope("test gen config", () => {
         });
 
         chunk("has filter", () => {
-            CONF.args.genFilter = "filter";
+            CONF.args.genStepsFilter = "filter";
             reloadConfig();
             expect(CONF.gen.filter).to.be.equal("filter");
         });
@@ -76,7 +76,7 @@ scope("test gen config", () => {
         });
 
         chunk("has custom testsLimit", () => {
-            CONF.args.genLimitTests = 1;
+            CONF.args.genTestsLimit = 1;
             reloadConfig();
             expect(CONF.gen.testsLimit).to.be.equal(1);
         });
