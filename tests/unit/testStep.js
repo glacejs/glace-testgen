@@ -4,7 +4,7 @@ var Step = require("../../lib/step");
 
 scope("step", () => {
 
-    var step = new Step("step", "income", "outcome");
+    var step = new Step("step", 1, "income", "outcome");
 
     test("step instance", () => {
         expect(step.name).to.be.equal("step");
