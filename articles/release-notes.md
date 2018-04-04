@@ -1,3 +1,7 @@
+### v1.0.7
+
+- [Provided](https://github.com/glacejs/glace-testgen/commit/f1c994a8d12d18db5455a6b302d9c9bc8f6223c8) CLI option to restrict amount of final tests.
+
 ### v1.0.6
 
 - [Train](https://github.com/glacejs/glace-testgen/commit/925c49a9b57d7175d4668cffd15bb6f69927f33c) model for generating.
