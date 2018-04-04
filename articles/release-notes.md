@@ -1,3 +1,8 @@
+### v1.0.6
+
+- [Train](https://github.com/glacejs/glace-testgen/commit/925c49a9b57d7175d4668cffd15bb6f69927f33c) model for generating.
+- [Load](https://github.com/glacejs/glace-testgen/commit/dafa63336d669491a2b25cd6d40a0aef7f505f7c) pretrained model.
+
 ### v1.0.5
 
 - Print info about pregenerated tests loading.

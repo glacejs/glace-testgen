@@ -1,6 +1,6 @@
 {
   "name": "glace-testgen",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "GlaceJS tests generator",
   "main": "lib/index.js",
   "scripts": {
