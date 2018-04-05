@@ -1,3 +1,9 @@
+### v1.0.8
+
+- [Updated](https://github.com/glacejs/glace-testgen/commit/f96d26194b3bc7315ba5e3fa885d1a8b6d2f5c81) training coefficients algo.
+- [Fixed](https://github.com/glacejs/glace-testgen/commit/f289142d19af7e678f5475ded749e76a2badb300) tests maximum value.
+- [Used](https://github.com/glacejs/glace-testgen/commit/9a3efb62bf7267da1405f52fb8762483c480a52b) optional tests shuffle before generating iteration.
+
 ### v1.0.7
 
 - [Provided](https://github.com/glacejs/glace-testgen/commit/f1c994a8d12d18db5455a6b302d9c9bc8f6223c8) CLI option to restrict amount of final tests.
