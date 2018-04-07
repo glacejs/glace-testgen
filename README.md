@@ -11,7 +11,7 @@
 ## Features
 
 - Tests generating via graph traversal and rules management.
-- Machine learning in tests building via [Markov chains](https://en.wikipedia.org/wiki/Markov_chain) based approach.
+- [Machine learning in tests building](tutorial-machine-learning.html) via [Markov chains](https://en.wikipedia.org/wiki/Markov_chain) based approach.
 
 ## Installation
 
