@@ -6,41 +6,40 @@
 
 ## Annotation
 
-Tests Generator needs to generate test scenarios from steps library.
-It receives `json` or `yaml` file with steps description and returns a list composed test cases.
-Tests Generator may be used for manual and autotests generation.
+**Tests Generator creates manual or automated test scenarios from steps description.**
 
-**Note!** Currently it may generate only positive test cases.
+## Features
+
+- Tests generating via graph traversal and rules management.
+- Machine learning in tests building via [Markov chains](https://en.wikipedia.org/wiki/Markov_chain) based approach.
 
 ## Installation
 
 ```
-npm i glace-testgen
+npm i -g glace-testgen
 ```
 
-Then utility `test-gen` will be available in console.
+Utility `test-gen` will be available in console then.
 
 ## Quick Start
-
-1. Be sure that you have installed `glace-testgen`.
 
 1. Create file `steps.yml` and fill with content:
 
     ```
     -
-      name: "open app"
+      name: open app
       income: null
       outcome:
         app: true
     -
-      name: "authenticate"
+      name: authenticate
       income:
         app: true
       outcome:
         app:
           auth: true
     -
-      name: "close app"
+      name: close app
       income: 
         app: true
       outcome: null
@@ -65,7 +64,11 @@ Then utility `test-gen` will be available in console.
       - close app
     ```
 
-More details about steps description you may find [here](tutorial-steps-description.html).
+1. Example of glace-js [steps description](https://github.com/glacejs/glace-js/blob/master/tests/e2e.steps.yaml) for autotests generating.
+
+1. Example of glace-proxy [steps description](https://github.com/glacejs/glace-proxy/blob/master/tests/e2e.steps.yaml) for autotests generating.
+
+1. More details about steps description you may find [here](tutorial-steps-description.html).
 
 ## Console Options
 
@@ -100,6 +103,8 @@ Steps file may be `.json` or `.yaml` (`.yml`).
 - `--gen-tests-files <sequence>` - Space-separated sequence of paths to files with pregenerated tests (yaml or json format).
 - `--gen-tests-only` - Flag to exclude other found tests and launch only generated tests in plugin mode.
 - `--gen-tests-shuffle` - Shuffle tests during generating. Provides more steps sequence randomization, but tests will be different in generating runs.
+- `--gen-train <path>` - Load tests from **path** for training, launch generator in **train** mode and save result to file.
+- `--gen-train-result [path]` - Path to file with training result. Default is `cwd/train-result.json`.
 - `--gen-load-train <path>` - Path to file with pretrained model, which will be loaded before generating.
 - `--gen-train-before <path>` - Path to file with tests for training before generating.
 - `--gen-names-only` - Flag to print only step names.
@@ -109,8 +114,77 @@ Steps file may be `.json` or `.yaml` (`.yml`).
 - `--version` - Show version number.
 - `-h, --help` - Show help.
 
-## State Descriptor
+## How To
 
-The quality and correctness of composed tests deeply depends on steps `income` and `outcome` description. There are some [rules](tutorial-steps-description.html) which will help you to avoid unexpected scenarios.
+### How to generate tests quickly
 
-## Howto
+If you have several dozens of steps, tests building with unlimited parameters may require a long time. Use options
+`--gen-steps-uniq`, `--gen-tests-limit`, `--gen-steps-limit` for efficient optimisation of consumed time.
+
+1. Download [example](https://github.com/glacejs/glace-js/blob/master/tests/e2e.steps.yaml) with steps description.
+
+1. Launch command
+
+  ```
+  test-gen e2e.steps.yaml --gen-steps-uniq 2 --gen-tests-limit 150 --gen-output-file result
+  ```
+
+1. Wait for finish
+
+  ```
+  Generating tests from steps...
+  50 tests are generated during 419ms
+  ```
+
+1. Open file `result.yml` to see generated tests.
+
+### How to train generator model
+
+For training you need a file with test samples in `yaml` format.
+
+1. Download [example](https://github.com/glacejs/glace-js/blob/master/tests/e2e.steps.yaml) with steps description.
+
+1. Generate 10 tests
+
+  ```
+  test-gen e2e.steps.yaml --gen-steps-uniq 2 --gen-tests-limit 150 --gen-tests-max 10 --gen-output-file for_train
+  ```
+
+1. Launch training
+
+  ```
+  test-gen --gen-train for_train.yml
+  ```
+
+1. Wait for finish
+
+  ```
+  Training model...
+  Model is trained during 18ms
+  ```
+
+1. Training result is saved to `train-result.json`.
+
+### How to use trained model for generating
+
+1. Train model from example above.
+
+1. Launch command
+
+  ```
+  test-gen e2e.steps.yaml --gen-steps-uniq 2 --gen-tests-limit 150 --gen-load-train train-result.json --gen-output-file result
+  ```
+
+1. Generated tests will be saved to file `result.yml`.
+
+### How to train model on fly in generating
+
+1. Prepare test samples for training from example above.
+
+1. Launch command
+
+  ```
+  test-gen e2e.steps.yaml --gen-steps-uniq 2 --gen-tests-limit 150 --gen-train-before for_train.yml --gen-output-file result
+  ```
+
+1. Generated tests will be saved to file `result.yml`.
