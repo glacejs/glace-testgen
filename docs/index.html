@@ -110,29 +110,28 @@
         <article><p><a href="https://travis-ci.org/glacejs/glace-testgen"><img src="https://travis-ci.org/glacejs/glace-testgen.svg?branch=master" alt="Build Status"></a>
  | <a href="https://github.com/glacejs/glace-testgen">Source Code</a>
  | <a href="tutorial-release-notes.html">Release Notes</a></p>
-<h1>GlaceJS Tests Generator</h1><h2>Annotation</h2><p>Tests Generator needs to generate test scenarios from steps library.
-It receives <code>json</code> or <code>yaml</code> file with steps description and returns a list composed test cases.
-Tests Generator may be used for manual and autotests generation.</p>
-<p><strong>Note!</strong> Currently it may generate only positive test cases.</p>
-<h2>Installation</h2><pre class="prettyprint source"><code>npm i glace-testgen</code></pre><p>Then utility <code>test-gen</code> will be available in console.</p>
+<h1>GlaceJS Tests Generator</h1><h2>Annotation</h2><p><strong>Tests Generator creates manual or automated test scenarios from steps description.</strong></p>
+<h2>Features</h2><ul>
+<li>Tests generating via graph traversal and rules management.</li>
+<li>Machine learning in tests building via <a href="https://en.wikipedia.org/wiki/Markov_chain">Markov chains</a> based approach.</li>
+</ul>
+<h2>Installation</h2><pre class="prettyprint source"><code>npm i -g glace-testgen</code></pre><p>Utility <code>test-gen</code> will be available in console then.</p>
 <h2>Quick Start</h2><ol>
-<li><p>Be sure that you have installed <code>glace-testgen</code>.</p>
-</li>
 <li><p>Create file <code>steps.yml</code> and fill with content:</p>
 <pre class="prettyprint source"><code> -
-   name: &quot;open app&quot;
+   name: open app
    income: null
    outcome:
      app: true
  -
-   name: &quot;authenticate&quot;
+   name: authenticate
    income:
      app: true
    outcome:
      app:
        auth: true
  -
-   name: &quot;close app&quot;
+   name: close app
    income: 
      app: true
    outcome: null</code></pre></li>
@@ -147,8 +146,13 @@ Tests Generator may be used for manual and autotests generation.</p>
  Test case 2:
    - open app
    - close app</code></pre></li>
+<li><p>Example of glace-js <a href="https://github.com/glacejs/glace-js/blob/master/tests/e2e.steps.yaml">steps description</a> for autotests generating.</p>
+</li>
+<li><p>Example of glace-proxy <a href="https://github.com/glacejs/glace-proxy/blob/master/tests/e2e.steps.yaml">steps description</a> for autotests generating.</p>
+</li>
+<li><p>More details about steps description you may find <a href="tutorial-steps-description.html">here</a>.</p>
+</li>
 </ol>
-<p>More details about steps description you may find <a href="tutorial-steps-description.html">here</a>.</p>
 <h2>Console Options</h2><p>Utility usage:</p>
 <pre class="prettyprint source"><code>test-gen path/to/steps/file [options]</code></pre><p>Steps file may be <code>.json</code> or <code>.yaml</code> (<code>.yml</code>).</p>
 <p><code>Arguments:</code></p>
@@ -174,6 +178,8 @@ Tests Generator may be used for manual and autotests generation.</p>
 <li><code>--gen-tests-files &lt;sequence&gt;</code> - Space-separated sequence of paths to files with pregenerated tests (yaml or json format).</li>
 <li><code>--gen-tests-only</code> - Flag to exclude other found tests and launch only generated tests in plugin mode.</li>
 <li><code>--gen-tests-shuffle</code> - Shuffle tests during generating. Provides more steps sequence randomization, but tests will be different in generating runs.</li>
+<li><code>--gen-train &lt;path&gt;</code> - Load tests from <strong>path</strong> for training, launch generator in <strong>train</strong> mode and save result to file.</li>
+<li><code>--gen-train-result [path]</code> - Path to file with training result. Default is <code>cwd/train-result.json</code>.</li>
 <li><code>--gen-load-train &lt;path&gt;</code> - Path to file with pretrained model, which will be loaded before generating.</li>
 <li><code>--gen-train-before &lt;path&gt;</code> - Path to file with tests for training before generating.</li>
 <li><code>--gen-names-only</code> - Flag to print only step names.</li>
@@ -183,8 +189,49 @@ Tests Generator may be used for manual and autotests generation.</p>
 <li><code>--version</code> - Show version number.</li>
 <li><code>-h, --help</code> - Show help.</li>
 </ul>
-<h2>State Descriptor</h2><p>The quality and correctness of composed tests deeply depends on steps <code>income</code> and <code>outcome</code> description. There are some <a href="tutorial-steps-description.html">rules</a> which will help you to avoid unexpected scenarios.</p>
-<h2>Howto</h2></article>
+<h2>How To</h2><h3>How to generate tests quickly</h3><p>If you have several dozens of steps, tests building with unlimited parameters may require a long time. Use options
+<code>--gen-steps-uniq</code>, <code>--gen-tests-limit</code>, <code>--gen-steps-limit</code> for efficient optimisation of consumed time.</p>
+<ol>
+<li><p>Download <a href="https://github.com/glacejs/glace-js/blob/master/tests/e2e.steps.yaml">example</a> with steps description.</p>
+</li>
+<li><p>Launch command</p>
+<pre class="prettyprint source"><code>test-gen e2e.steps.yaml --gen-steps-uniq 2 --gen-tests-limit 150 --gen-output-file result</code></pre></li>
+<li><p>Wait for finish</p>
+<pre class="prettyprint source"><code>Generating tests from steps...
+50 tests are generated during 419ms</code></pre></li>
+<li><p>Open file <code>result.yml</code> to see generated tests.</p>
+</li>
+</ol>
+<h3>How to train generator model</h3><p>For training you need a file with test samples in <code>yaml</code> format.</p>
+<ol>
+<li><p>Download <a href="https://github.com/glacejs/glace-js/blob/master/tests/e2e.steps.yaml">example</a> with steps description.</p>
+</li>
+<li><p>Generate 10 tests</p>
+<pre class="prettyprint source"><code>test-gen e2e.steps.yaml --gen-steps-uniq 2 --gen-tests-limit 150 --gen-tests-max 10 --gen-output-file for_train</code></pre></li>
+<li><p>Launch training</p>
+<pre class="prettyprint source"><code>test-gen --gen-train for_train.yml</code></pre></li>
+<li><p>Wait for finish</p>
+<pre class="prettyprint source"><code>Training model...
+Model is trained during 18ms</code></pre></li>
+<li><p>Training result is saved to <code>train-result.json</code>.</p>
+</li>
+</ol>
+<h3>How to use trained model for generating</h3><ol>
+<li><p>Train model from example above.</p>
+</li>
+<li><p>Launch command</p>
+<pre class="prettyprint source"><code>test-gen e2e.steps.yaml --gen-steps-uniq 2 --gen-tests-limit 150 --gen-load-train train-result.json --gen-output-file result</code></pre></li>
+<li><p>Generated tests will be saved to file <code>result.yml</code>.</p>
+</li>
+</ol>
+<h3>How to train model on fly in generating</h3><ol>
+<li><p>Prepare test samples for training from example above.</p>
+</li>
+<li><p>Launch command</p>
+<pre class="prettyprint source"><code>test-gen e2e.steps.yaml --gen-steps-uniq 2 --gen-tests-limit 150 --gen-train-before for_train.yml --gen-output-file result</code></pre></li>
+<li><p>Generated tests will be saved to file <code>result.yml</code>.</p>
+</li>
+</ol></article>
     </section>
 
 
@@ -234,7 +281,7 @@ Tests Generator may be used for manual and autotests generation.</p>
 <span class="jsdoc-message">
 	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
 	
-		on 2018-04-05T22:34:47+03:00
+		on 2018-04-07T17:37:41+03:00
 	
 	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
 </span>
