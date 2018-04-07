@@ -358,7 +358,7 @@ Test case 20:
   - stop_global_proxy
 ```
 
-- Train generator model (`trail-result.json` file will be created):
+- Train generator model (`train-result.json` file will be created):
 
 ```
 test-gen --gen-train for_train.yml
