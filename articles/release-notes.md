@@ -1,3 +1,8 @@
+### v1.0.9
+
+- [Fixed](https://github.com/glacejs/glace-testgen/commit/88420bc50b037bcf467decb984d0dbe1122950da) bias formula.
+- [Removed](https://github.com/glacejs/glace-testgen/commit/9fedac0186b86c580ad85c74507645459ffdbbc2) unused dependencies.
+
 ### v1.0.8
 
 - [Updated](https://github.com/glacejs/glace-testgen/commit/f96d26194b3bc7315ba5e3fa885d1a8b6d2f5c81) training coefficients algo.
