@@ -1,3 +1,7 @@
+### v1.1.0
+
+- [Added](https://github.com/glacejs/glace-testgen/commit/93000f81e1d452a1140a92d5b21af567802e3211) CLI option to reverse order of generated tests.
+
 ### v1.0.9
 
 - [Fixed](https://github.com/glacejs/glace-testgen/commit/88420bc50b037bcf467decb984d0dbe1122950da) bias formula.
