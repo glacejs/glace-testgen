@@ -1,3 +1,7 @@
+### v1.1.1
+
+- [Fixed](https://github.com/glacejs/glace-testgen/commit/38ae40b93bcc0934dc1e14082e6b14d643908f59) weights formula.
+
 ### v1.1.0
 
 - [Added](https://github.com/glacejs/glace-testgen/commit/93000f81e1d452a1140a92d5b21af567802e3211) CLI option to reverse order of generated tests.
