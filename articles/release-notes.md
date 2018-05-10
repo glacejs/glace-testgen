@@ -1,3 +1,7 @@
+### v1.1.2
+
+- [Replaced](https://github.com/glacejs/glace-testgen/commit/a8f5a4463b13545539b95f153970622df920ff1b) `scope` with `suite` in autotests launcher.
+
 ### v1.1.1
 
 - [Fixed](https://github.com/glacejs/glace-testgen/commit/38ae40b93bcc0934dc1e14082e6b14d643908f59) weights formula.
