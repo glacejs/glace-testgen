@@ -24,6 +24,7 @@ module.exports = {
         "fxSelenium": true,
         "document": true,
         "window": true,
+        "suite": true,
         "html2canvas": true
     },
     "extends": "eslint:recommended",
