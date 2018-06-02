@@ -1,3 +1,7 @@
+### v1.1.4
+
+- Updated dependencies.
+
 ### v1.1.2
 
 - [Replaced](https://github.com/glacejs/glace-testgen/commit/a8f5a4463b13545539b95f153970622df920ff1b) `scope` with `suite` in autotests launcher.
