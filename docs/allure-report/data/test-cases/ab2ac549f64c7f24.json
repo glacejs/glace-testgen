@@ -1,12 +1,12 @@
 {
-  "uid" : "c668baf0b1ee71ce",
-  "name" : ".printTests()",
-  "fullName" : "Session 2018-7-28 14:15:37..printTests()",
-  "historyId" : "fbc4923dbffc8220789bea1fd1f3d5bb",
+  "uid" : "ab2ac549f64c7f24",
+  "name" : ".printUnusedSteps()",
+  "fullName" : "Session 2018-7-28 21:24:27..printUnusedSteps()",
+  "historyId" : "5113f99e1e046a0bb3b2eb0ba42aa8fe",
   "time" : {
-    "start" : 1532776539045,
-    "stop" : 1532776539049,
-    "duration" : 4
+    "start" : 1532802275839,
+    "stop" : 1532802275844,
+    "duration" : 5
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,11 +18,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "doesn't print if no tests",
+      "name" : "prints if steps are",
       "time" : {
-        "start" : 1532776539046,
-        "stop" : 1532776539046,
-        "duration" : 0
+        "start" : 1532802275840,
+        "stop" : 1532802275843,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,26 +33,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "prints only step names",
+      "name" : "doesn't print if no steps",
       "time" : {
-        "start" : 1532776539047,
-        "stop" : 1532776539047,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "prints full steps info",
-      "time" : {
-        "start" : 1532776539048,
-        "stop" : 1532776539048,
-        "duration" : 0
+        "start" : 1532802275843,
+        "stop" : 1532802275844,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,7 +50,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
+    "stepsCount" : 2,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -73,16 +58,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Session 2018-7-28 14:15:37"
+    "value" : "Session 2018-7-28 21:24:27"
   }, {
     "name" : "testClass",
-    "value" : "Session 2018-7-28 14:15:37"
+    "value" : "Session 2018-7-28 21:24:27"
   }, {
     "name" : "testMethod",
-    "value" : ".printTests()"
+    "value" : ".printUnusedSteps()"
   }, {
     "name" : "package",
-    "value" : "Session 2018-7-28 14:15:37"
+    "value" : "Session 2018-7-28 21:24:27"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -96,7 +81,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c668baf0b1ee71ce.json",
+  "source" : "ab2ac549f64c7f24.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

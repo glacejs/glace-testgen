@@ -1,12 +1,12 @@
 {
-  "uid" : "a7a661c3d56b819c",
-  "name" : ".write()",
-  "fullName" : "Session 2018-7-28 14:15:37..write()",
-  "historyId" : "7b8ef7083bf3b287257c680aa5b9c108",
+  "uid" : "bd98bec402e84829",
+  "name" : ".printTests()",
+  "fullName" : "Session 2018-7-28 21:24:27..printTests()",
+  "historyId" : "c215a82b0623e52f45ef54283a70a7c5",
   "time" : {
-    "start" : 1532776539042,
-    "stop" : 1532776539045,
-    "duration" : 3
+    "start" : 1532802275848,
+    "stop" : 1532802275858,
+    "duration" : 10
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,10 +18,25 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "to stdout",
+      "name" : "doesn't print if no tests",
       "time" : {
-        "start" : 1532776539043,
-        "stop" : 1532776539044,
+        "start" : 1532802275848,
+        "stop" : 1532802275854,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "prints only step names",
+      "time" : {
+        "start" : 1532802275855,
+        "stop" : 1532802275856,
         "duration" : 1
       },
       "status" : "passed",
@@ -33,10 +48,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "to file",
+      "name" : "prints full steps info",
       "time" : {
-        "start" : 1532776539044,
-        "stop" : 1532776539045,
+        "start" : 1532802275856,
+        "stop" : 1532802275857,
         "duration" : 1
       },
       "status" : "passed",
@@ -50,7 +65,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 2,
+    "stepsCount" : 3,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -58,16 +73,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Session 2018-7-28 14:15:37"
+    "value" : "Session 2018-7-28 21:24:27"
   }, {
     "name" : "testClass",
-    "value" : "Session 2018-7-28 14:15:37"
+    "value" : "Session 2018-7-28 21:24:27"
   }, {
     "name" : "testMethod",
-    "value" : ".write()"
+    "value" : ".printTests()"
   }, {
     "name" : "package",
-    "value" : "Session 2018-7-28 14:15:37"
+    "value" : "Session 2018-7-28 21:24:27"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -81,7 +96,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a7a661c3d56b819c.json",
+  "source" : "bd98bec402e84829.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

@@ -1,12 +1,12 @@
 {
-  "uid" : "e4da205dc964819e",
+  "uid" : "a7c94fd93b1139a5",
   "name" : "Test case #1",
   "fullName" : "2 generated tests.Test case #1",
   "historyId" : "6e42f0ea18fb177a3460aae281d2ee0b",
   "time" : {
-    "start" : 1532776539565,
-    "stop" : 1532776539576,
-    "duration" : 11
+    "start" : 1532802276373,
+    "stop" : 1532802276381,
+    "duration" : 8
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "openApp",
       "time" : {
-        "start" : 1532776539566,
-        "stop" : 1532776539571,
-        "duration" : 5
+        "start" : 1532802276374,
+        "stop" : 1532802276378,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,8 +35,8 @@
     }, {
       "name" : "auth",
       "time" : {
-        "start" : 1532776539573,
-        "stop" : 1532776539574,
+        "start" : 1532802276379,
+        "stop" : 1532802276380,
         "duration" : 1
       },
       "status" : "passed",
@@ -50,8 +50,8 @@
     }, {
       "name" : "closeApp",
       "time" : {
-        "start" : 1532776539574,
-        "stop" : 1532776539575,
+        "start" : 1532802276380,
+        "stop" : 1532802276381,
         "duration" : 1
       },
       "status" : "passed",
@@ -96,7 +96,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e4da205dc964819e.json",
+  "source" : "a7c94fd93b1139a5.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

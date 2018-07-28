@@ -12,7 +12,7 @@
     "templates": {
         "theme": "cosmo",
         "outputSourceFiles": true,
-        "systemName": "GlaseJS",
+        "systemName": "GlaceJS",
         "copyright": "Copyright 2017",
         "linenums": true
     }

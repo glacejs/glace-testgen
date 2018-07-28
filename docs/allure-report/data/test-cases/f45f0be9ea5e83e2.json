@@ -1,12 +1,12 @@
 {
-  "uid" : "55b4885ed8e982bd",
+  "uid" : "f45f0be9ea5e83e2",
   "name" : "import",
   "fullName" : "globals.import",
   "historyId" : "326c941164701e2adfe67a3b5f211c4d",
   "time" : {
-    "start" : 1532776539494,
-    "stop" : 1532776539533,
-    "duration" : 39
+    "start" : 1532802276311,
+    "stop" : 1532802276343,
+    "duration" : 32
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "doesn't affect test targets",
       "time" : {
-        "start" : 1532776539494,
-        "stop" : 1532776539522,
-        "duration" : 28
+        "start" : 1532802276312,
+        "stop" : 1532802276334,
+        "duration" : 22
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,9 +35,9 @@
     }, {
       "name" : "uses only generated autotests",
       "time" : {
-        "start" : 1532776539522,
-        "stop" : 1532776539528,
-        "duration" : 6
+        "start" : 1532802276334,
+        "stop" : 1532802276338,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,9 +50,9 @@
     }, {
       "name" : "use generated autotests with other targets",
       "time" : {
-        "start" : 1532776539528,
-        "stop" : 1532776539532,
-        "duration" : 4
+        "start" : 1532802276338,
+        "stop" : 1532802276343,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -96,7 +96,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "55b4885ed8e982bd.json",
+  "source" : "f45f0be9ea5e83e2.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

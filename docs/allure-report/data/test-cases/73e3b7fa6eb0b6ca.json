@@ -1,12 +1,12 @@
 {
-  "uid" : "b98e883c5feafeaf",
-  "name" : ".printUnusedSteps()",
-  "fullName" : "Session 2018-7-28 14:15:37..printUnusedSteps()",
-  "historyId" : "268fff4e1b93cc226a34bfb7fe799a13",
+  "uid" : "73e3b7fa6eb0b6ca",
+  "name" : "Test case #2",
+  "fullName" : "2 generated tests.Test case #2",
+  "historyId" : "ab8b18f06d90e14d2b7835515fb50721",
   "time" : {
-    "start" : 1532776539037,
-    "stop" : 1532776539042,
-    "duration" : 5
+    "start" : 1532802276382,
+    "stop" : 1532802276383,
+    "duration" : 1
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,11 +18,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "prints if steps are",
+      "name" : "openApp",
       "time" : {
-        "start" : 1532776539037,
-        "stop" : 1532776539040,
-        "duration" : 3
+        "start" : 1532802276382,
+        "stop" : 1532802276383,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,11 +33,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "doesn't print if no steps",
+      "name" : "closeApp",
       "time" : {
-        "start" : 1532776539040,
-        "stop" : 1532776539041,
-        "duration" : 1
+        "start" : 1532802276383,
+        "stop" : 1532802276383,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -58,16 +58,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Session 2018-7-28 14:15:37"
+    "value" : "2 generated tests"
   }, {
     "name" : "testClass",
-    "value" : "Session 2018-7-28 14:15:37"
+    "value" : "2 generated tests"
   }, {
     "name" : "testMethod",
-    "value" : ".printUnusedSteps()"
+    "value" : "Test case #2"
   }, {
     "name" : "package",
-    "value" : "Session 2018-7-28 14:15:37"
+    "value" : "2 generated tests"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -81,7 +81,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b98e883c5feafeaf.json",
+  "source" : "73e3b7fa6eb0b6ca.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

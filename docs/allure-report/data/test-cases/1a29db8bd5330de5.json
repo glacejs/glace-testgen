@@ -1,11 +1,11 @@
 {
-  "uid" : "a4737e03228af9e5",
-  "name" : "Test case #2",
-  "fullName" : "2 generated tests.Test case #2",
-  "historyId" : "ab8b18f06d90e14d2b7835515fb50721",
+  "uid" : "1a29db8bd5330de5",
+  "name" : ".write()",
+  "fullName" : "Session 2018-7-28 21:24:27..write()",
+  "historyId" : "34a5e0354d7ef40d7bb77d363abba77c",
   "time" : {
-    "start" : 1532776539576,
-    "stop" : 1532776539579,
+    "start" : 1532802275844,
+    "stop" : 1532802275847,
     "duration" : 3
   },
   "description" : "",
@@ -18,10 +18,10 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "openApp",
+      "name" : "to stdout",
       "time" : {
-        "start" : 1532776539577,
-        "stop" : 1532776539578,
+        "start" : 1532802275845,
+        "stop" : 1532802275846,
         "duration" : 1
       },
       "status" : "passed",
@@ -33,11 +33,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "closeApp",
+      "name" : "to file",
       "time" : {
-        "start" : 1532776539578,
-        "stop" : 1532776539578,
-        "duration" : 0
+        "start" : 1532802275846,
+        "stop" : 1532802275847,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -58,16 +58,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "2 generated tests"
+    "value" : "Session 2018-7-28 21:24:27"
   }, {
     "name" : "testClass",
-    "value" : "2 generated tests"
+    "value" : "Session 2018-7-28 21:24:27"
   }, {
     "name" : "testMethod",
-    "value" : "Test case #2"
+    "value" : ".write()"
   }, {
     "name" : "package",
-    "value" : "2 generated tests"
+    "value" : "Session 2018-7-28 21:24:27"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -81,7 +81,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a4737e03228af9e5.json",
+  "source" : "1a29db8bd5330de5.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },
