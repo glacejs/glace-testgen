@@ -1,0 +1,80 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 13
+    },
+    "time" : {
+      "start" : 1532767662565,
+      "stop" : 1532767662970,
+      "duration" : 405,
+      "minDuration" : 2,
+      "maxDuration" : 181,
+      "sumDuration" : 387
+    }
+  },
+  "environment" : [ ],
+  "suites" : {
+    "total" : 3,
+    "items" : [ {
+      "uid" : "7ed187f0e4f3107096c29620a5913d72",
+      "name" : "Session 2018-7-28 11:47:41",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      }
+    }, {
+      "uid" : "9d9873e0e6a54a78cee3f25329ee22b4",
+      "name" : "2 generated tests",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "3998b72ebb42be9d20bfc9d55decfadb",
+      "name" : "globals",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 13
+    }
+  } ],
+  "behaviors" : {
+    "total" : 13,
+    "items" : [ ]
+  },
+  "executors" : [ ],
+  "categories" : {
+    "total" : 0,
+    "items" : [ ]
+  },
+  "launches" : [ ]
+}

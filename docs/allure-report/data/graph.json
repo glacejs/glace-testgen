@@ -1,0 +1,131 @@
+[ {
+  "uid" : "49b02a1be22606a7",
+  "name" : "with default values",
+  "time" : {
+    "start" : 1532767662588,
+    "stop" : 1532767662726,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "507869ea2f1d836a",
+  "name" : "Test case #2",
+  "time" : {
+    "start" : 1532767662968,
+    "stop" : 1532767662970,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88f270c0efb90b6e",
+  "name" : ".isSub()",
+  "time" : {
+    "start" : 1532767662954,
+    "stop" : 1532767662957,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9cdd4725cdafaed",
+  "name" : "Test case #1",
+  "time" : {
+    "start" : 1532767662957,
+    "stop" : 1532767662968,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82e917c29108f3",
+  "name" : "test instance",
+  "time" : {
+    "start" : 1532767662945,
+    "stop" : 1532767662954,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf836d4f824f5b04",
+  "name" : "with option values",
+  "time" : {
+    "start" : 1532767662726,
+    "stop" : 1532767662907,
+    "duration" : 181
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d14c87de318a7d9",
+  "name" : ".generate()",
+  "time" : {
+    "start" : 1532767662907,
+    "stop" : 1532767662910,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d113521bd70b629",
+  "name" : "import",
+  "time" : {
+    "start" : 1532767662911,
+    "stop" : 1532767662927,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a393be80c0aecf70",
+  "name" : ".printTests()",
+  "time" : {
+    "start" : 1532767662584,
+    "stop" : 1532767662587,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b19d7cc3f133a32a",
+  "name" : ".__getSteps()",
+  "time" : {
+    "start" : 1532767662943,
+    "stop" : 1532767662945,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0ec3677735f33d8",
+  "name" : ".printUnusedSteps()",
+  "time" : {
+    "start" : 1532767662576,
+    "stop" : 1532767662581,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7d5658397c2e011",
+  "name" : ".write()",
+  "time" : {
+    "start" : 1532767662581,
+    "stop" : 1532767662584,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "534f159a058ddc0",
+  "name" : ".run()",
+  "time" : {
+    "start" : 1532767662565,
+    "stop" : 1532767662576,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,77 @@
+{
+  "uid" : "b19d7cc3f133a32a",
+  "name" : ".__getSteps()",
+  "fullName" : "Session 2018-7-28 11:47:41..__getSteps()",
+  "historyId" : "8bc283ade9b02cbf82b0ea99e6c7230d",
+  "time" : {
+    "start" : 1532767662943,
+    "stop" : 1532767662945,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "",
+      "time" : {
+        "start" : 1532767662944,
+        "stop" : 1532767662945,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Session 2018-7-28 11:47:41"
+  }, {
+    "name" : "testClass",
+    "value" : "Session 2018-7-28 11:47:41"
+  }, {
+    "name" : "testMethod",
+    "value" : ".__getSteps()"
+  }, {
+    "name" : "package",
+    "value" : "Session 2018-7-28 11:47:41"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b19d7cc3f133a32a.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}
