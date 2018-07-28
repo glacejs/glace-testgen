@@ -6,13 +6,14 @@
   "scripts": {
     "ci": "npm run lint && npm run test:unit",
     "release": "VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git add -u && git commit -m \"release $VERSION\" && git tag $VERSION && git push origin $VERSION && npm run docs:publish && npm publish",
-    "docs": "rm -rf docs && jsdoc -c jsdoc.json -d docs",
+    "docs": "rm -rf docs && jsdoc -c jsdoc.json -d docs && npm run allure:report",
     "docs:publish": "npm run docs && git add docs && git commit -m \"update docs\" && git push origin master",
+    "allure:report": "npm run test:cover && allure generate report/allure --report-dir ./docs/allure-report",
     "lint": "eslint lib tests",
     "lint:fix": "npm run lint -- --fix",
     "test": "npm run lint && npm run test:unit && npm run test:e2e",
     "test:unit": "nyc ./tests/run tests/unit",
-    "test:cover": "nyc --reporter=lcov ./tests/run tests/unit",
+    "test:cover": "nyc --reporter=lcov --report-dir ./docs/tests-cover ./tests/run tests/unit --gen-steps-files ./tests/e2e-steps.yml --allure",
     "test:commit": "./tests/run tests/unit",
     "test:e2e": "./tests/run --gen-steps-files ./tests/e2e-steps.yml --gen-tests-only"
   },
