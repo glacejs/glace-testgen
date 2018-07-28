@@ -1,0 +1,92 @@
+{
+  "uid" : "a4737e03228af9e5",
+  "name" : "Test case #2",
+  "fullName" : "2 generated tests.Test case #2",
+  "historyId" : "ab8b18f06d90e14d2b7835515fb50721",
+  "time" : {
+    "start" : 1532776539576,
+    "stop" : 1532776539579,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "openApp",
+      "time" : {
+        "start" : 1532776539577,
+        "stop" : 1532776539578,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "closeApp",
+      "time" : {
+        "start" : 1532776539578,
+        "stop" : 1532776539578,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "2 generated tests"
+  }, {
+    "name" : "testClass",
+    "value" : "2 generated tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test case #2"
+  }, {
+    "name" : "package",
+    "value" : "2 generated tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4737e03228af9e5.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

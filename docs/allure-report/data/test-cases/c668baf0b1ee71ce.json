@@ -1,0 +1,107 @@
+{
+  "uid" : "c668baf0b1ee71ce",
+  "name" : ".printTests()",
+  "fullName" : "Session 2018-7-28 14:15:37..printTests()",
+  "historyId" : "fbc4923dbffc8220789bea1fd1f3d5bb",
+  "time" : {
+    "start" : 1532776539045,
+    "stop" : 1532776539049,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "doesn't print if no tests",
+      "time" : {
+        "start" : 1532776539046,
+        "stop" : 1532776539046,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "prints only step names",
+      "time" : {
+        "start" : 1532776539047,
+        "stop" : 1532776539047,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "prints full steps info",
+      "time" : {
+        "start" : 1532776539048,
+        "stop" : 1532776539048,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Session 2018-7-28 14:15:37"
+  }, {
+    "name" : "testClass",
+    "value" : "Session 2018-7-28 14:15:37"
+  }, {
+    "name" : "testMethod",
+    "value" : ".printTests()"
+  }, {
+    "name" : "package",
+    "value" : "Session 2018-7-28 14:15:37"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c668baf0b1ee71ce.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}
