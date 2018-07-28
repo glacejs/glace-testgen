@@ -17,6 +17,11 @@
     "test:commit": "./tests/run tests/unit",
     "test:e2e": "./tests/run --gen-steps-files ./tests/e2e-steps.yml --gen-tests-only"
   },
+  "nyc": {
+    "exclude": [
+      "tests"
+    ]
+  },
   "pre-commit": [
     "lint",
     "test:commit"
