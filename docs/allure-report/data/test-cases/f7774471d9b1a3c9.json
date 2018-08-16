@@ -1,12 +1,12 @@
 {
-  "uid" : "4f6f2c12f99e0ee6",
-  "name" : ".run()",
-  "fullName" : "Session 2018-7-28 21:24:27..run()",
-  "historyId" : "43cfeaecebad69bc472b7a4f56345b0b",
+  "uid" : "f7774471d9b1a3c9",
+  "name" : ".__getSteps()",
+  "fullName" : "Session 2018-8-16 21:05:18..__getSteps()",
+  "historyId" : "f1387685127037f661101f6fcd386b0b",
   "time" : {
-    "start" : 1532802275828,
-    "stop" : 1532802275838,
-    "duration" : 10
+    "start" : 1534442722394,
+    "stop" : 1534442722396,
+    "duration" : 2
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "",
       "time" : {
-        "start" : 1532802275830,
-        "stop" : 1532802275836,
-        "duration" : 6
+        "start" : 1534442722394,
+        "stop" : 1534442722395,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -43,16 +43,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "testClass",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "testMethod",
-    "value" : ".run()"
+    "value" : ".__getSteps()"
   }, {
     "name" : "package",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -66,7 +66,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4f6f2c12f99e0ee6.json",
+  "source" : "f7774471d9b1a3c9.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

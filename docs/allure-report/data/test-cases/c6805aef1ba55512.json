@@ -1,12 +1,12 @@
 {
-  "uid" : "3c1d308810b0ad5",
+  "uid" : "c6805aef1ba55512",
   "name" : ".isSub()",
-  "fullName" : "Session 2018-7-28 21:24:27..isSub()",
-  "historyId" : "6f50c351966a85dbb11e4ec3b05a56dd",
+  "fullName" : "Session 2018-8-16 21:05:18..isSub()",
+  "historyId" : "27a2be5637e2c151343c4b4eea8c738d",
   "time" : {
-    "start" : 1532802276368,
-    "stop" : 1532802276373,
-    "duration" : 5
+    "start" : 1534442722405,
+    "stop" : 1534442722408,
+    "duration" : 3
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -20,8 +20,8 @@
     "steps" : [ {
       "name" : "returns false for null & null",
       "time" : {
-        "start" : 1532802276369,
-        "stop" : 1532802276369,
+        "start" : 1534442722406,
+        "stop" : 1534442722406,
         "duration" : 0
       },
       "status" : "passed",
@@ -35,9 +35,9 @@
     }, {
       "name" : "returns false for {} & null",
       "time" : {
-        "start" : 1532802276369,
-        "stop" : 1532802276370,
-        "duration" : 1
+        "start" : 1534442722406,
+        "stop" : 1534442722406,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,8 +50,8 @@
     }, {
       "name" : "returns false for null & {}",
       "time" : {
-        "start" : 1532802276370,
-        "stop" : 1532802276370,
+        "start" : 1534442722406,
+        "stop" : 1534442722406,
         "duration" : 0
       },
       "status" : "passed",
@@ -65,9 +65,9 @@
     }, {
       "name" : "returns true for { app: true } & { app: true }",
       "time" : {
-        "start" : 1532802276370,
-        "stop" : 1532802276371,
-        "duration" : 1
+        "start" : 1534442722407,
+        "stop" : 1534442722407,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,8 +80,8 @@
     }, {
       "name" : "returns true for { app: { loaded: true } } & { app: true }",
       "time" : {
-        "start" : 1532802276371,
-        "stop" : 1532802276371,
+        "start" : 1534442722407,
+        "stop" : 1534442722407,
         "duration" : 0
       },
       "status" : "passed",
@@ -95,8 +95,8 @@
     }, {
       "name" : "returns false for { app: true } & { app: { loaded: true } }",
       "time" : {
-        "start" : 1532802276371,
-        "stop" : 1532802276372,
+        "start" : 1534442722407,
+        "stop" : 1534442722408,
         "duration" : 1
       },
       "status" : "passed",
@@ -110,8 +110,8 @@
     }, {
       "name" : "returns true for { app: { scene: { loaded: true } } } & { app: { scene: true } }",
       "time" : {
-        "start" : 1532802276372,
-        "stop" : 1532802276372,
+        "start" : 1534442722408,
+        "stop" : 1534442722408,
         "duration" : 0
       },
       "status" : "passed",
@@ -133,16 +133,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "testClass",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "testMethod",
     "value" : ".isSub()"
   }, {
     "name" : "package",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -156,7 +156,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3c1d308810b0ad5.json",
+  "source" : "c6805aef1ba55512.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

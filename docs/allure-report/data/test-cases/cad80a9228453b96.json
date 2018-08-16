@@ -1,12 +1,12 @@
 {
-  "uid" : "73e3b7fa6eb0b6ca",
-  "name" : "Test case #2",
-  "fullName" : "2 generated tests.Test case #2",
-  "historyId" : "ab8b18f06d90e14d2b7835515fb50721",
+  "uid" : "cad80a9228453b96",
+  "name" : "import",
+  "fullName" : "globals.import",
+  "historyId" : "326c941164701e2adfe67a3b5f211c4d",
   "time" : {
-    "start" : 1532802276382,
-    "stop" : 1532802276383,
-    "duration" : 1
+    "start" : 1534442722338,
+    "stop" : 1534442722384,
+    "duration" : 46
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,11 +18,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "openApp",
+      "name" : "doesn't affect test targets",
       "time" : {
-        "start" : 1532802276382,
-        "stop" : 1532802276383,
-        "duration" : 1
+        "start" : 1534442722338,
+        "stop" : 1534442722376,
+        "duration" : 38
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,11 +33,26 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "closeApp",
+      "name" : "uses only generated autotests",
       "time" : {
-        "start" : 1532802276383,
-        "stop" : 1532802276383,
-        "duration" : 0
+        "start" : 1534442722376,
+        "stop" : 1534442722380,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "use generated autotests with other targets",
+      "time" : {
+        "start" : 1534442722380,
+        "stop" : 1534442722384,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,7 +65,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 2,
+    "stepsCount" : 3,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -58,16 +73,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "2 generated tests"
+    "value" : "globals"
   }, {
     "name" : "testClass",
-    "value" : "2 generated tests"
+    "value" : "globals"
   }, {
     "name" : "testMethod",
-    "value" : "Test case #2"
+    "value" : "import"
   }, {
     "name" : "package",
-    "value" : "2 generated tests"
+    "value" : "globals"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -81,7 +96,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "73e3b7fa6eb0b6ca.json",
+  "source" : "cad80a9228453b96.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

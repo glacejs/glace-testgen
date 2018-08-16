@@ -1,12 +1,12 @@
 {
-  "uid" : "2b89049971921012",
-  "name" : "with option values",
-  "fullName" : "Session 2018-7-28 21:24:27.with option values",
-  "historyId" : "58dfbd9e2374ca125a443771019345eb",
+  "uid" : "51d94568114fccbc",
+  "name" : "with default values",
+  "fullName" : "Session 2018-8-16 21:05:18.with default values",
+  "historyId" : "49e0e141db6fe7d715ad48cdeba8b1e1",
   "time" : {
-    "start" : 1532802276101,
-    "stop" : 1532802276304,
-    "duration" : 203
+    "start" : 1534442721987,
+    "stop" : 1534442722165,
+    "duration" : 178
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,11 +18,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "has outFile",
+      "name" : "contains gen section",
       "time" : {
-        "start" : 1532802276102,
-        "stop" : 1532802276138,
-        "duration" : 36
+        "start" : 1534442721988,
+        "stop" : 1534442722049,
+        "duration" : 61
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,11 +33,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "has stepsUsage",
+      "name" : "doesn't have outFile",
       "time" : {
-        "start" : 1532802276139,
-        "stop" : 1532802276173,
-        "duration" : 34
+        "start" : 1534442722049,
+        "stop" : 1534442722072,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,11 +48,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "has filter",
+      "name" : "doesn't have stepsUsage",
       "time" : {
-        "start" : 1532802276173,
-        "stop" : 1532802276200,
-        "duration" : 27
+        "start" : 1534442722072,
+        "stop" : 1534442722100,
+        "duration" : 28
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,11 +63,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "has namesOnly",
+      "name" : "doesn't have filter",
       "time" : {
-        "start" : 1532802276200,
-        "stop" : 1532802276234,
-        "duration" : 34
+        "start" : 1534442722100,
+        "stop" : 1534442722118,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,11 +78,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "has stepsUniq",
+      "name" : "doesn't have namesOnly",
       "time" : {
-        "start" : 1532802276234,
-        "stop" : 1532802276268,
-        "duration" : 34
+        "start" : 1534442722119,
+        "stop" : 1534442722141,
+        "duration" : 22
       },
       "status" : "passed",
       "steps" : [ ],
@@ -93,11 +93,26 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "has custom testsLimit",
+      "name" : "doesn't have stepsUniq",
       "time" : {
-        "start" : 1532802276268,
-        "stop" : 1532802276303,
-        "duration" : 35
+        "start" : 1534442722141,
+        "stop" : 1534442722154,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "has default testsLimit",
+      "time" : {
+        "start" : 1534442722154,
+        "stop" : 1534442722165,
+        "duration" : 11
       },
       "status" : "passed",
       "steps" : [ ],
@@ -110,7 +125,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 6,
+    "stepsCount" : 7,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -118,16 +133,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "testClass",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "testMethod",
-    "value" : "with option values"
+    "value" : "with default values"
   }, {
     "name" : "package",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -141,7 +156,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2b89049971921012.json",
+  "source" : "51d94568114fccbc.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

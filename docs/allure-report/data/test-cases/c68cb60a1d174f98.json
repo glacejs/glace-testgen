@@ -1,12 +1,12 @@
 {
-  "uid" : "f45f0be9ea5e83e2",
-  "name" : "import",
-  "fullName" : "globals.import",
-  "historyId" : "326c941164701e2adfe67a3b5f211c4d",
+  "uid" : "c68cb60a1d174f98",
+  "name" : ".write()",
+  "fullName" : "Session 2018-8-16 21:05:18..write()",
+  "historyId" : "3e7aeabfb04f5c6bc17086341bfbc5be",
   "time" : {
-    "start" : 1532802276311,
-    "stop" : 1532802276343,
-    "duration" : 32
+    "start" : 1534442721978,
+    "stop" : 1534442721981,
+    "duration" : 3
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,11 +18,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "doesn't affect test targets",
+      "name" : "to stdout",
       "time" : {
-        "start" : 1532802276312,
-        "stop" : 1532802276334,
-        "duration" : 22
+        "start" : 1534442721979,
+        "stop" : 1534442721980,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,26 +33,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "uses only generated autotests",
+      "name" : "to file",
       "time" : {
-        "start" : 1532802276334,
-        "stop" : 1532802276338,
-        "duration" : 4
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "use generated autotests with other targets",
-      "time" : {
-        "start" : 1532802276338,
-        "stop" : 1532802276343,
-        "duration" : 5
+        "start" : 1534442721980,
+        "stop" : 1534442721981,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,7 +50,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
+    "stepsCount" : 2,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -73,16 +58,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "globals"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "testClass",
-    "value" : "globals"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "testMethod",
-    "value" : "import"
+    "value" : ".write()"
   }, {
     "name" : "package",
-    "value" : "globals"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -96,7 +81,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f45f0be9ea5e83e2.json",
+  "source" : "c68cb60a1d174f98.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

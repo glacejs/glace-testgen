@@ -1,12 +1,12 @@
 {
-  "uid" : "7518c1898fae2b97",
-  "name" : "with default values",
-  "fullName" : "Session 2018-7-28 21:24:27.with default values",
-  "historyId" : "a1e84fbbae08a9f031eee0388c030a02",
+  "uid" : "e83c79dc4fa2266c",
+  "name" : "with option values",
+  "fullName" : "Session 2018-8-16 21:05:18.with option values",
+  "historyId" : "91bf230827c307fa23cf9c0004565d43",
   "time" : {
-    "start" : 1532802275858,
-    "stop" : 1532802276101,
-    "duration" : 243
+    "start" : 1534442722165,
+    "stop" : 1534442722333,
+    "duration" : 168
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,11 +18,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "contains gen section",
+      "name" : "has outFile",
       "time" : {
-        "start" : 1532802275859,
-        "stop" : 1532802275898,
-        "duration" : 39
+        "start" : 1534442722166,
+        "stop" : 1534442722196,
+        "duration" : 30
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,11 +33,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "doesn't have outFile",
+      "name" : "has stepsUsage",
       "time" : {
-        "start" : 1532802275898,
-        "stop" : 1532802275923,
-        "duration" : 25
+        "start" : 1534442722196,
+        "stop" : 1534442722220,
+        "duration" : 24
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,25 +48,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "doesn't have stepsUsage",
+      "name" : "has filter",
       "time" : {
-        "start" : 1532802275923,
-        "stop" : 1532802275958,
-        "duration" : 35
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "doesn't have filter",
-      "time" : {
-        "start" : 1532802275958,
-        "stop" : 1532802275981,
+        "start" : 1534442722220,
+        "stop" : 1534442722243,
         "duration" : 23
       },
       "status" : "passed",
@@ -78,10 +63,25 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "doesn't have namesOnly",
+      "name" : "has namesOnly",
       "time" : {
-        "start" : 1532802275982,
-        "stop" : 1532802276007,
+        "start" : 1534442722243,
+        "stop" : 1534442722284,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "has stepsUniq",
+      "time" : {
+        "start" : 1534442722284,
+        "stop" : 1534442722309,
         "duration" : 25
       },
       "status" : "passed",
@@ -93,26 +93,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "doesn't have stepsUniq",
+      "name" : "has custom testsLimit",
       "time" : {
-        "start" : 1532802276007,
-        "stop" : 1532802276021,
-        "duration" : 14
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "has default testsLimit",
-      "time" : {
-        "start" : 1532802276021,
-        "stop" : 1532802276100,
-        "duration" : 79
+        "start" : 1534442722310,
+        "stop" : 1534442722333,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
@@ -125,7 +110,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 7,
+    "stepsCount" : 6,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -133,16 +118,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "testClass",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "testMethod",
-    "value" : "with default values"
+    "value" : "with option values"
   }, {
     "name" : "package",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -156,7 +141,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7518c1898fae2b97.json",
+  "source" : "e83c79dc4fa2266c.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

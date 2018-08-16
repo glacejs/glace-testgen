@@ -1,12 +1,12 @@
 {
-  "uid" : "ab2ac549f64c7f24",
-  "name" : ".printUnusedSteps()",
-  "fullName" : "Session 2018-7-28 21:24:27..printUnusedSteps()",
-  "historyId" : "5113f99e1e046a0bb3b2eb0ba42aa8fe",
+  "uid" : "aaa9425810c94298",
+  "name" : ".run()",
+  "fullName" : "Session 2018-8-16 21:05:18..run()",
+  "historyId" : "7ab57535d31a8ef8e7961a562a87f082",
   "time" : {
-    "start" : 1532802275839,
-    "stop" : 1532802275844,
-    "duration" : 5
+    "start" : 1534442721956,
+    "stop" : 1534442721971,
+    "duration" : 15
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,26 +18,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "prints if steps are",
+      "name" : "",
       "time" : {
-        "start" : 1532802275840,
-        "stop" : 1532802275843,
-        "duration" : 3
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "doesn't print if no steps",
-      "time" : {
-        "start" : 1532802275843,
-        "stop" : 1532802275844,
-        "duration" : 1
+        "start" : 1534442721960,
+        "stop" : 1534442721969,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,7 +35,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 2,
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -58,16 +43,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "testClass",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "testMethod",
-    "value" : ".printUnusedSteps()"
+    "value" : ".run()"
   }, {
     "name" : "package",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -81,7 +66,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ab2ac549f64c7f24.json",
+  "source" : "aaa9425810c94298.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

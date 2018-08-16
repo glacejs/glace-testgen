@@ -1,12 +1,12 @@
 {
-  "uid" : "86bf886da5459db",
+  "uid" : "a96825eae1443db7",
   "name" : "test instance",
-  "fullName" : "Session 2018-7-28 21:24:27.test instance",
-  "historyId" : "dd9ab5fcc7ea36ced21fe0e059b932db",
+  "fullName" : "Session 2018-8-16 21:05:18.test instance",
+  "historyId" : "542ea0c5a06d4c0d7f432877578127e0",
   "time" : {
-    "start" : 1532802276358,
-    "stop" : 1532802276368,
-    "duration" : 10
+    "start" : 1534442722396,
+    "stop" : 1534442722404,
+    "duration" : 8
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -20,8 +20,8 @@
     "steps" : [ {
       "name" : "created",
       "time" : {
-        "start" : 1532802276359,
-        "stop" : 1532802276360,
+        "start" : 1534442722398,
+        "stop" : 1534442722399,
         "duration" : 1
       },
       "status" : "passed",
@@ -35,8 +35,8 @@
     }, {
       "name" : ".clone()",
       "time" : {
-        "start" : 1532802276360,
-        "stop" : 1532802276361,
+        "start" : 1534442722399,
+        "stop" : 1534442722400,
         "duration" : 1
       },
       "status" : "passed",
@@ -50,9 +50,9 @@
     }, {
       "name" : ".commit()",
       "time" : {
-        "start" : 1532802276362,
-        "stop" : 1532802276362,
-        "duration" : 0
+        "start" : 1534442722400,
+        "stop" : 1534442722401,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,9 +65,9 @@
     }, {
       "name" : "._amount()",
       "time" : {
-        "start" : 1532802276362,
-        "stop" : 1532802276363,
-        "duration" : 1
+        "start" : 1534442722401,
+        "stop" : 1534442722401,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,8 +80,8 @@
     }, {
       "name" : ".mayAdd()",
       "time" : {
-        "start" : 1532802276363,
-        "stop" : 1532802276365,
+        "start" : 1534442722401,
+        "stop" : 1534442722403,
         "duration" : 2
       },
       "status" : "unknown",
@@ -91,9 +91,9 @@
       "steps" : [ {
         "name" : "returns true",
         "time" : {
-          "start" : 1532802276363,
-          "stop" : 1532802276364,
-          "duration" : 1
+          "start" : 1534442722402,
+          "stop" : 1534442722402,
+          "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
@@ -106,8 +106,8 @@
       }, {
         "name" : "returns false",
         "time" : {
-          "start" : 1532802276364,
-          "stop" : 1532802276364,
+          "start" : 1534442722402,
+          "stop" : 1534442722402,
           "duration" : 0
         },
         "status" : "passed",
@@ -128,9 +128,9 @@
     }, {
       "name" : ".add()",
       "time" : {
-        "start" : 1532802276365,
-        "stop" : 1532802276367,
-        "duration" : 2
+        "start" : 1534442722403,
+        "stop" : 1534442722404,
+        "duration" : 1
       },
       "status" : "unknown",
       "statusDetails" : {
@@ -139,9 +139,9 @@
       "steps" : [ {
         "name" : "if no state",
         "time" : {
-          "start" : 1532802276365,
-          "stop" : 1532802276366,
-          "duration" : 1
+          "start" : 1534442722403,
+          "stop" : 1534442722403,
+          "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
@@ -154,9 +154,9 @@
       }, {
         "name" : "if state is",
         "time" : {
-          "start" : 1532802276366,
-          "stop" : 1532802276367,
-          "duration" : 1
+          "start" : 1534442722404,
+          "stop" : 1534442722404,
+          "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
@@ -184,16 +184,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "testClass",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "testMethod",
     "value" : "test instance"
   }, {
     "name" : "package",
-    "value" : "Session 2018-7-28 21:24:27"
+    "value" : "Session 2018-8-16 21:05:18"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -207,7 +207,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "86bf886da5459db.json",
+  "source" : "a96825eae1443db7.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },
