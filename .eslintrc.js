@@ -5,6 +5,7 @@ module.exports = {
     },
     "globals": {
         "SS": true,
+        "$": true,
         "expect": true,
         "chunk": true,
         "test": true,

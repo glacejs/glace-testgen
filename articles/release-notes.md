@@ -1,3 +1,8 @@
+### v1.1.6
+
+- Updated `glace-core`.
+- Started to use `$` only.
+
 ### v1.1.5
 
 - Migrated to new `glace-core`.
