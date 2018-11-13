@@ -1,12 +1,12 @@
 {
-  "uid" : "cad80a9228453b96",
-  "name" : "import",
-  "fullName" : "globals.import",
-  "historyId" : "326c941164701e2adfe67a3b5f211c4d",
+  "uid" : "a0335e13691965f6",
+  "name" : "Test case #1",
+  "fullName" : "2 generated tests.Test case #1",
+  "historyId" : "6e42f0ea18fb177a3460aae281d2ee0b",
   "time" : {
-    "start" : 1534442722338,
-    "stop" : 1534442722384,
-    "duration" : 46
+    "start" : 1542138005086,
+    "stop" : 1542138005091,
+    "duration" : 5
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,11 +18,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "doesn't affect test targets",
+      "name" : "openApp",
       "time" : {
-        "start" : 1534442722338,
-        "stop" : 1534442722376,
-        "duration" : 38
+        "start" : 1542138005087,
+        "stop" : 1542138005089,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,11 +33,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "uses only generated autotests",
+      "name" : "auth",
       "time" : {
-        "start" : 1534442722376,
-        "stop" : 1534442722380,
-        "duration" : 4
+        "start" : 1542138005090,
+        "stop" : 1542138005090,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,11 +48,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "use generated autotests with other targets",
+      "name" : "closeApp",
       "time" : {
-        "start" : 1534442722380,
-        "stop" : 1534442722384,
-        "duration" : 4
+        "start" : 1542138005090,
+        "stop" : 1542138005091,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -73,16 +73,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "globals"
+    "value" : "2 generated tests"
   }, {
     "name" : "testClass",
-    "value" : "globals"
+    "value" : "2 generated tests"
   }, {
     "name" : "testMethod",
-    "value" : "import"
+    "value" : "Test case #1"
   }, {
     "name" : "package",
-    "value" : "globals"
+    "value" : "2 generated tests"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -96,7 +96,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cad80a9228453b96.json",
+  "source" : "a0335e13691965f6.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

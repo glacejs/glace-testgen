@@ -1,12 +1,12 @@
 {
-  "uid" : "51d94568114fccbc",
-  "name" : "with default values",
-  "fullName" : "Session 2018-8-16 21:05:18.with default values",
-  "historyId" : "49e0e141db6fe7d715ad48cdeba8b1e1",
+  "uid" : "fbcee63829c322b8",
+  "name" : ".isSub()",
+  "fullName" : "Session 2018-11-13 21:40:02..isSub()",
+  "historyId" : "6f5332441f0bdf891f8f6a14b264633",
   "time" : {
-    "start" : 1534442721987,
-    "stop" : 1534442722165,
-    "duration" : 178
+    "start" : 1542138005081,
+    "stop" : 1542138005085,
+    "duration" : 4
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,11 +18,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "contains gen section",
+      "name" : "returns false for null & null",
       "time" : {
-        "start" : 1534442721988,
-        "stop" : 1534442722049,
-        "duration" : 61
+        "start" : 1542138005082,
+        "stop" : 1542138005082,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,11 +33,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "doesn't have outFile",
+      "name" : "returns false for {} & null",
       "time" : {
-        "start" : 1534442722049,
-        "stop" : 1534442722072,
-        "duration" : 23
+        "start" : 1542138005082,
+        "stop" : 1542138005083,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,11 +48,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "doesn't have stepsUsage",
+      "name" : "returns false for null & {}",
       "time" : {
-        "start" : 1534442722072,
-        "stop" : 1534442722100,
-        "duration" : 28
+        "start" : 1542138005083,
+        "stop" : 1542138005083,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,11 +63,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "doesn't have filter",
+      "name" : "returns true for { app: true } & { app: true }",
       "time" : {
-        "start" : 1534442722100,
-        "stop" : 1534442722118,
-        "duration" : 18
+        "start" : 1542138005083,
+        "stop" : 1542138005083,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,11 +78,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "doesn't have namesOnly",
+      "name" : "returns true for { app: { loaded: true } } & { app: true }",
       "time" : {
-        "start" : 1534442722119,
-        "stop" : 1534442722141,
-        "duration" : 22
+        "start" : 1542138005084,
+        "stop" : 1542138005084,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -93,11 +93,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "doesn't have stepsUniq",
+      "name" : "returns false for { app: true } & { app: { loaded: true } }",
       "time" : {
-        "start" : 1534442722141,
-        "stop" : 1534442722154,
-        "duration" : 13
+        "start" : 1542138005084,
+        "stop" : 1542138005084,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -108,11 +108,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "has default testsLimit",
+      "name" : "returns true for { app: { scene: { loaded: true } } } & { app: { scene: true } }",
       "time" : {
-        "start" : 1534442722154,
-        "stop" : 1534442722165,
-        "duration" : 11
+        "start" : 1542138005084,
+        "stop" : 1542138005085,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -133,16 +133,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Session 2018-8-16 21:05:18"
+    "value" : "Session 2018-11-13 21:40:02"
   }, {
     "name" : "testClass",
-    "value" : "Session 2018-8-16 21:05:18"
+    "value" : "Session 2018-11-13 21:40:02"
   }, {
     "name" : "testMethod",
-    "value" : "with default values"
+    "value" : ".isSub()"
   }, {
     "name" : "package",
-    "value" : "Session 2018-8-16 21:05:18"
+    "value" : "Session 2018-11-13 21:40:02"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -156,7 +156,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "51d94568114fccbc.json",
+  "source" : "fbcee63829c322b8.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

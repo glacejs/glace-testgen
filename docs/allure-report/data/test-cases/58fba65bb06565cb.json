@@ -1,12 +1,12 @@
 {
-  "uid" : "655da382d42ebfcd",
-  "name" : ".printTests()",
-  "fullName" : "Session 2018-8-16 21:05:18..printTests()",
-  "historyId" : "6b7ce5ea5a40a5f6ccaa5a6249f5d119",
+  "uid" : "58fba65bb06565cb",
+  "name" : "Test case #2",
+  "fullName" : "2 generated tests.Test case #2",
+  "historyId" : "ab8b18f06d90e14d2b7835515fb50721",
   "time" : {
-    "start" : 1534442721982,
-    "stop" : 1534442721986,
-    "duration" : 4
+    "start" : 1542138005092,
+    "stop" : 1542138005094,
+    "duration" : 2
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,10 +18,10 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "doesn't print if no tests",
+      "name" : "openApp",
       "time" : {
-        "start" : 1534442721982,
-        "stop" : 1534442721983,
+        "start" : 1542138005092,
+        "stop" : 1542138005093,
         "duration" : 1
       },
       "status" : "passed",
@@ -33,26 +33,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "prints only step names",
+      "name" : "closeApp",
       "time" : {
-        "start" : 1534442721984,
-        "stop" : 1534442721985,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "prints full steps info",
-      "time" : {
-        "start" : 1534442721985,
-        "stop" : 1534442721986,
-        "duration" : 1
+        "start" : 1542138005093,
+        "stop" : 1542138005093,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,7 +50,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
+    "stepsCount" : 2,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -73,16 +58,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Session 2018-8-16 21:05:18"
+    "value" : "2 generated tests"
   }, {
     "name" : "testClass",
-    "value" : "Session 2018-8-16 21:05:18"
+    "value" : "2 generated tests"
   }, {
     "name" : "testMethod",
-    "value" : ".printTests()"
+    "value" : "Test case #2"
   }, {
     "name" : "package",
-    "value" : "Session 2018-8-16 21:05:18"
+    "value" : "2 generated tests"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -96,7 +81,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "655da382d42ebfcd.json",
+  "source" : "58fba65bb06565cb.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },
