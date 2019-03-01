@@ -1,3 +1,7 @@
+### v1.1.8
+
+- Updated dependencies to fresh versions.
+
 ### v1.1.7
 
 - Updated dependencies.

@@ -1,6 +1,6 @@
 {
   "name": "glace-testgen",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "GlaceJS tests generator",
   "main": "lib/index.js",
   "scripts": {
@@ -40,19 +40,19 @@
   },
   "homepage": "https://glacejs.github.io/glace-testgen",
   "dependencies": {
-    "colors": "1.3.2",
-    "glace-utils": "1.3.1",
-    "js-yaml": "3.12.0",
+    "colors": "1.3.3",
+    "glace-utils": "1.3.4",
+    "js-yaml": "3.12.2",
     "lodash": "4.17.11",
     "pretty-ms": "4.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.9.0",
-    "glace-core": "^1.8.9",
+    "eslint": "^5.14.1",
+    "glace-core": "^1.9.8",
     "ink-docstrap": "^1.3.0",
     "jsdoc": "^3.5.5",
     "jsdoc-strip-async-await": "^0.1.0",
-    "nyc": "^13.1.0",
+    "nyc": "^13.3.0",
     "pre-commit": "^1.2.2"
   },
   "engines": {
