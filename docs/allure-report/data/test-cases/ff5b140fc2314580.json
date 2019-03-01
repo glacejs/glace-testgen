@@ -1,28 +1,26 @@
 {
-  "uid" : "fc06adcc98cdbca6",
-  "name" : ".printUnusedSteps()",
-  "fullName" : "Session 2018-11-13 21:40:02..printUnusedSteps()",
-  "historyId" : "13872a5286dbeb7687eecb422293eb0a",
+  "uid" : "ff5b140fc2314580",
+  "name" : "Test case #1",
+  "fullName" : "2 generated tests.Test case #1",
+  "historyId" : "6e42f0ea18fb177a3460aae281d2ee0b",
   "time" : {
-    "start" : 1542138004708,
-    "stop" : 1542138004714,
-    "duration" : 6
+    "start" : 1551416379203,
+    "stop" : 1551416379207,
+    "duration" : 4
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "passed",
-  "statusDetails" : {
-    "flaky" : false
-  },
+  "flaky" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "prints if steps are",
+      "name" : "openApp",
       "time" : {
-        "start" : 1542138004709,
-        "stop" : 1542138004712,
-        "duration" : 3
+        "start" : 1551416379203,
+        "stop" : 1551416379205,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,11 +31,26 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "doesn't print if no steps",
+      "name" : "auth",
       "time" : {
-        "start" : 1542138004713,
-        "stop" : 1542138004713,
+        "start" : 1551416379206,
+        "stop" : 1551416379206,
         "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "closeApp",
+      "time" : {
+        "start" : 1551416379206,
+        "stop" : 1551416379207,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,7 +63,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 2,
+    "stepsCount" : 3,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -58,16 +71,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Session 2018-11-13 21:40:02"
+    "value" : "2 generated tests"
   }, {
     "name" : "testClass",
-    "value" : "Session 2018-11-13 21:40:02"
+    "value" : "2 generated tests"
   }, {
     "name" : "testMethod",
-    "value" : ".printUnusedSteps()"
+    "value" : "Test case #1"
   }, {
     "name" : "package",
-    "value" : "Session 2018-11-13 21:40:02"
+    "value" : "2 generated tests"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -75,18 +88,13 @@
   "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
+  "retry" : false,
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fc06adcc98cdbca6.json",
-  "statusDetailsSafe" : {
-    "flaky" : false
-  },
-  "statusMessage" : {
-    "present" : false
-  },
+  "source" : "ff5b140fc2314580.json",
   "parameterValues" : [ ]
 }

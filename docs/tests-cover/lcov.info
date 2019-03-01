@@ -1,5 +1,5 @@
 TN:
-SF:/home/user/vega/projects/glace/glace-testgen/lib/autotests.js
+SF:/Users/sergeichip/user/projects/glace/glace-testgen/lib/autotests.js
 FN:25,(anonymous_0)
 FN:25,(anonymous_1)
 FN:27,(anonymous_2)
@@ -79,7 +79,7 @@ BRF:10
 BRH:4
 end_of_record
 TN:
-SF:/home/user/vega/projects/glace/glace-testgen/lib/cli.js
+SF:/Users/sergeichip/user/projects/glace/glace-testgen/lib/cli.js
 FN:29,(anonymous_0)
 FN:46,(anonymous_1)
 FN:60,(anonymous_2)
@@ -160,7 +160,7 @@ BRF:16
 BRH:11
 end_of_record
 TN:
-SF:/home/user/vega/projects/glace/glace-testgen/lib/config.js
+SF:/Users/sergeichip/user/projects/glace/glace-testgen/lib/config.js
 FN:39,(anonymous_0)
 FN:43,(anonymous_1)
 FN:47,(anonymous_2)
@@ -246,7 +246,7 @@ BRF:31
 BRH:22
 end_of_record
 TN:
-SF:/home/user/vega/projects/glace/glace-testgen/lib/generator.js
+SF:/Users/sergeichip/user/projects/glace/glace-testgen/lib/generator.js
 FN:28,(anonymous_0)
 FN:70,(anonymous_1)
 FN:103,(anonymous_2)
@@ -410,7 +410,7 @@ BRF:42
 BRH:21
 end_of_record
 TN:
-SF:/home/user/vega/projects/glace/glace-testgen/lib/globals.js
+SF:/Users/sergeichip/user/projects/glace/glace-testgen/lib/globals.js
 FNF:0
 FNH:0
 DA:9,4
@@ -430,7 +430,7 @@ BRF:4
 BRH:4
 end_of_record
 TN:
-SF:/home/user/vega/projects/glace/glace-testgen/lib/help.js
+SF:/Users/sergeichip/user/projects/glace/glace-testgen/lib/help.js
 FNF:0
 FNH:0
 DA:9,1
@@ -444,7 +444,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/home/user/vega/projects/glace/glace-testgen/lib/index.js
+SF:/Users/sergeichip/user/projects/glace/glace-testgen/lib/index.js
 FN:16,(anonymous_0)
 FN:22,(anonymous_1)
 FN:28,(anonymous_2)
@@ -478,7 +478,7 @@ BRF:8
 BRH:4
 end_of_record
 TN:
-SF:/home/user/vega/projects/glace/glace-testgen/lib/loader.js
+SF:/Users/sergeichip/user/projects/glace/glace-testgen/lib/loader.js
 FN:22,(anonymous_0)
 FN:40,(anonymous_1)
 FN:42,(anonymous_2)
@@ -533,7 +533,7 @@ BRF:6
 BRH:3
 end_of_record
 TN:
-SF:/home/user/vega/projects/glace/glace-testgen/lib/pluginHelp.js
+SF:/Users/sergeichip/user/projects/glace/glace-testgen/lib/pluginHelp.js
 FN:9,(anonymous_0)
 FNF:1
 FNH:1
@@ -546,7 +546,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/home/user/vega/projects/glace/glace-testgen/lib/step.js
+SF:/Users/sergeichip/user/projects/glace/glace-testgen/lib/step.js
 FN:33,(anonymous_0)
 FN:63,(anonymous_1)
 FNF:2
@@ -583,7 +583,7 @@ BRF:8
 BRH:8
 end_of_record
 TN:
-SF:/home/user/vega/projects/glace/glace-testgen/lib/test.js
+SF:/Users/sergeichip/user/projects/glace/glace-testgen/lib/test.js
 FN:21,(anonymous_0)
 FN:36,(anonymous_1)
 FN:79,(anonymous_2)
@@ -722,7 +722,7 @@ BRF:50
 BRH:27
 end_of_record
 TN:
-SF:/home/user/vega/projects/glace/glace-testgen/lib/train.js
+SF:/Users/sergeichip/user/projects/glace/glace-testgen/lib/train.js
 FN:9,(anonymous_0)
 FN:24,(anonymous_1)
 FN:35,(anonymous_2)
@@ -823,7 +823,7 @@ BRF:12
 BRH:0
 end_of_record
 TN:
-SF:/home/user/vega/projects/glace/glace-testgen/lib/utils.js
+SF:/Users/sergeichip/user/projects/glace/glace-testgen/lib/utils.js
 FN:23,(anonymous_0)
 FN:25,(anonymous_1)
 FN:53,(anonymous_2)

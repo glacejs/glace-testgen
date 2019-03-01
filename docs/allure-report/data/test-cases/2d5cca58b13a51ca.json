@@ -1,28 +1,26 @@
 {
-  "uid" : "bcab77f137c373",
-  "name" : ".run()",
-  "fullName" : "Session 2018-11-13 21:40:02..run()",
-  "historyId" : "b44b716e8f15fc3d2a2300f403bf376c",
+  "uid" : "2d5cca58b13a51ca",
+  "name" : ".generate()",
+  "fullName" : "Session 2019-3-1 06:59:38..generate()",
+  "historyId" : "2aa6351aba8215d224893fe980cecaf8",
   "time" : {
-    "start" : 1542138004696,
-    "stop" : 1542138004707,
-    "duration" : 11
+    "start" : 1551416379153,
+    "stop" : 1551416379158,
+    "duration" : 5
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "passed",
-  "statusDetails" : {
-    "flaky" : false
-  },
+  "flaky" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "",
       "time" : {
-        "start" : 1542138004699,
-        "stop" : 1542138004705,
-        "duration" : 6
+        "start" : 1551416379154,
+        "stop" : 1551416379157,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -43,16 +41,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Session 2018-11-13 21:40:02"
+    "value" : "Session 2019-3-1 06:59:38"
   }, {
     "name" : "testClass",
-    "value" : "Session 2018-11-13 21:40:02"
+    "value" : "Session 2019-3-1 06:59:38"
   }, {
     "name" : "testMethod",
-    "value" : ".run()"
+    "value" : ".generate()"
   }, {
     "name" : "package",
-    "value" : "Session 2018-11-13 21:40:02"
+    "value" : "Session 2019-3-1 06:59:38"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -60,18 +58,13 @@
   "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
+  "retry" : false,
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bcab77f137c373.json",
-  "statusDetailsSafe" : {
-    "flaky" : false
-  },
-  "statusMessage" : {
-    "present" : false
-  },
+  "source" : "2d5cca58b13a51ca.json",
   "parameterValues" : [ ]
 }

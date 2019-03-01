@@ -1,28 +1,26 @@
 {
-  "uid" : "7b7409eff351f4bb",
+  "uid" : "cc1ade58ba30ecc4",
   "name" : "test instance",
-  "fullName" : "Session 2018-11-13 21:40:02.test instance",
-  "historyId" : "e107bfcdd77af5205f80d84e055d8e0f",
+  "fullName" : "Session 2019-3-1 06:59:38.test instance",
+  "historyId" : "59873049936690176f4b71d876ee05b8",
   "time" : {
-    "start" : 1542138005074,
-    "stop" : 1542138005080,
+    "start" : 1551416379192,
+    "stop" : 1551416379198,
     "duration" : 6
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "passed",
-  "statusDetails" : {
-    "flaky" : false
-  },
+  "flaky" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "created",
       "time" : {
-        "start" : 1542138005075,
-        "stop" : 1542138005076,
-        "duration" : 1
+        "start" : 1551416379193,
+        "stop" : 1551416379193,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,8 +33,8 @@
     }, {
       "name" : ".clone()",
       "time" : {
-        "start" : 1542138005076,
-        "stop" : 1542138005076,
+        "start" : 1551416379194,
+        "stop" : 1551416379194,
         "duration" : 0
       },
       "status" : "passed",
@@ -50,9 +48,9 @@
     }, {
       "name" : ".commit()",
       "time" : {
-        "start" : 1542138005077,
-        "stop" : 1542138005077,
-        "duration" : 0
+        "start" : 1551416379194,
+        "stop" : 1551416379195,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,9 +63,9 @@
     }, {
       "name" : "._amount()",
       "time" : {
-        "start" : 1542138005077,
-        "stop" : 1542138005077,
-        "duration" : 0
+        "start" : 1551416379195,
+        "stop" : 1551416379196,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,19 +78,16 @@
     }, {
       "name" : ".mayAdd()",
       "time" : {
-        "start" : 1542138005078,
-        "stop" : 1542138005079,
+        "start" : 1551416379196,
+        "stop" : 1551416379197,
         "duration" : 1
       },
       "status" : "unknown",
-      "statusDetails" : {
-        "flaky" : false
-      },
       "steps" : [ {
         "name" : "returns true",
         "time" : {
-          "start" : 1542138005078,
-          "stop" : 1542138005078,
+          "start" : 1551416379196,
+          "stop" : 1551416379196,
           "duration" : 0
         },
         "status" : "passed",
@@ -106,9 +101,9 @@
       }, {
         "name" : "returns false",
         "time" : {
-          "start" : 1542138005078,
-          "stop" : 1542138005079,
-          "duration" : 1
+          "start" : 1551416379197,
+          "stop" : 1551416379197,
+          "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
@@ -128,20 +123,17 @@
     }, {
       "name" : ".add()",
       "time" : {
-        "start" : 1542138005079,
-        "stop" : 1542138005080,
+        "start" : 1551416379197,
+        "stop" : 1551416379198,
         "duration" : 1
       },
       "status" : "unknown",
-      "statusDetails" : {
-        "flaky" : false
-      },
       "steps" : [ {
         "name" : "if no state",
         "time" : {
-          "start" : 1542138005079,
-          "stop" : 1542138005079,
-          "duration" : 0
+          "start" : 1551416379197,
+          "stop" : 1551416379198,
+          "duration" : 1
         },
         "status" : "passed",
         "steps" : [ ],
@@ -154,8 +146,8 @@
       }, {
         "name" : "if state is",
         "time" : {
-          "start" : 1542138005080,
-          "stop" : 1542138005080,
+          "start" : 1551416379198,
+          "stop" : 1551416379198,
           "duration" : 0
         },
         "status" : "passed",
@@ -184,16 +176,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Session 2018-11-13 21:40:02"
+    "value" : "Session 2019-3-1 06:59:38"
   }, {
     "name" : "testClass",
-    "value" : "Session 2018-11-13 21:40:02"
+    "value" : "Session 2019-3-1 06:59:38"
   }, {
     "name" : "testMethod",
     "value" : "test instance"
   }, {
     "name" : "package",
-    "value" : "Session 2018-11-13 21:40:02"
+    "value" : "Session 2019-3-1 06:59:38"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -201,18 +193,13 @@
   "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
+  "retry" : false,
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7b7409eff351f4bb.json",
-  "statusDetailsSafe" : {
-    "flaky" : false
-  },
-  "statusMessage" : {
-    "present" : false
-  },
+  "source" : "cc1ade58ba30ecc4.json",
   "parameterValues" : [ ]
 }

@@ -1,28 +1,26 @@
 {
-  "uid" : "ca7e8029eea7c62b",
-  "name" : ".generate()",
-  "fullName" : "Session 2018-11-13 21:40:02..generate()",
-  "historyId" : "d37d1adf1e3529db4c106902da86567d",
+  "uid" : "361c9095ce784e05",
+  "name" : ".__getSteps()",
+  "fullName" : "Session 2019-3-1 06:59:38..__getSteps()",
+  "historyId" : "94aec708bf67179d924f06cefde578b5",
   "time" : {
-    "start" : 1542138004975,
-    "stop" : 1542138004980,
-    "duration" : 5
+    "start" : 1551416379186,
+    "stop" : 1551416379190,
+    "duration" : 4
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "passed",
-  "statusDetails" : {
-    "flaky" : false
-  },
+  "flaky" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "",
       "time" : {
-        "start" : 1542138004975,
-        "stop" : 1542138004979,
-        "duration" : 4
+        "start" : 1551416379187,
+        "stop" : 1551416379190,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -43,16 +41,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Session 2018-11-13 21:40:02"
+    "value" : "Session 2019-3-1 06:59:38"
   }, {
     "name" : "testClass",
-    "value" : "Session 2018-11-13 21:40:02"
+    "value" : "Session 2019-3-1 06:59:38"
   }, {
     "name" : "testMethod",
-    "value" : ".generate()"
+    "value" : ".__getSteps()"
   }, {
     "name" : "package",
-    "value" : "Session 2018-11-13 21:40:02"
+    "value" : "Session 2019-3-1 06:59:38"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -60,18 +58,13 @@
   "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
+  "retry" : false,
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ca7e8029eea7c62b.json",
-  "statusDetailsSafe" : {
-    "flaky" : false
-  },
-  "statusMessage" : {
-    "present" : false
-  },
+  "source" : "361c9095ce784e05.json",
   "parameterValues" : [ ]
 }

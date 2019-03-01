@@ -1,28 +1,26 @@
 {
-  "uid" : "58fba65bb06565cb",
+  "uid" : "e85843a9946c7b6e",
   "name" : "Test case #2",
   "fullName" : "2 generated tests.Test case #2",
   "historyId" : "ab8b18f06d90e14d2b7835515fb50721",
   "time" : {
-    "start" : 1542138005092,
-    "stop" : 1542138005094,
+    "start" : 1551416379207,
+    "stop" : 1551416379209,
     "duration" : 2
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "passed",
-  "statusDetails" : {
-    "flaky" : false
-  },
+  "flaky" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "openApp",
       "time" : {
-        "start" : 1542138005092,
-        "stop" : 1542138005093,
-        "duration" : 1
+        "start" : 1551416379208,
+        "stop" : 1551416379208,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,9 +33,9 @@
     }, {
       "name" : "closeApp",
       "time" : {
-        "start" : 1542138005093,
-        "stop" : 1542138005093,
-        "duration" : 0
+        "start" : 1551416379208,
+        "stop" : 1551416379209,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,18 +73,13 @@
   "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
+  "retry" : false,
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "58fba65bb06565cb.json",
-  "statusDetailsSafe" : {
-    "flaky" : false
-  },
-  "statusMessage" : {
-    "present" : false
-  },
+  "source" : "e85843a9946c7b6e.json",
   "parameterValues" : [ ]
 }
